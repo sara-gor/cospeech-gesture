@@ -1,0 +1,113 @@
+20.3693 	WARNING 	/Users/sara-sofiagorriz/.psychopy3/fonts/Calibri.truetype doesn't have valid font family name
+20.5057 	WARNING 	Font Manager failed to load file /System/Library/PrivateFrameworks/FontServices.framework/Resources/Reserved/PingFangUI.ttc
+20.5765 	WARNING 	/Users/sara-sofiagorriz/.psychopy3/fonts/Calibri.truetype doesn't have valid font family name
+20.5881 	WARNING 	Font Manager failed to load file /System/Library/PrivateFrameworks/FontServices.framework/Resources/Reserved/PingFangUI.ttc
+20.6145 	WARNING 	psychopy.parallel has been imported on a Mac (which doesn't have a parallel port?)
+22.8854 	DEBUG 	Fullscreen settings ignored as running in pilot mode.
+22.8865 	INFO 	Loaded monitor calibration from ['2025_10_16 19:18']
+23.0497 	INFO 	Using renderer 'Apple M1 Pro' for graphics
+23.0498 	INFO 	OpenGL version supported by driver is 2..
+23.1117 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x15676ee30>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x15676ee90>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=False, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x1567b05e0>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(560.0), np.float64(240.0)], screen=1, size=array([800, 600]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+23.1117 	EXP 	window1: backgroundImage = ''
+23.1117 	EXP 	window1: backgroundFit = 'none'
+23.1409 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+23.1539 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+23.1666 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+23.1795 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+23.1923 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+23.2046 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+23.2172 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+23.2300 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+23.2422 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+23.2549 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+23.2678 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+23.2804 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+23.2930 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+23.3056 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+23.3181 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+23.3307 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+23.3433 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+23.3563 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+23.3695 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+23.3829 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+23.3959 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+23.3970 	DEBUG 	Uploading Texture Font fontname to graphics card
+23.4019 	DEBUG 	Upload of Texture Font fontname complete
+23.4212 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+23.4350 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+23.4487 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+23.4490 	DEBUG 	Uploading Texture Font fontname to graphics card
+23.4518 	DEBUG 	Upload of Texture Font fontname complete
+23.4536 	EXP 	window1: Attempting to measure frame rate of screen (1) ...
+23.4536 	EXP 	window1: recordFrameIntervals = False
+23.5860 	EXP 	window1: recordFrameIntervals = True
+24.4193 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+24.4406 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+24.4544 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+24.4674 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+24.4803 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+24.4932 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+24.5063 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+24.5187 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+24.5314 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+24.5443 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+24.5571 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+24.5574 	DEBUG 	Uploading Texture Font fontname to graphics card
+24.5596 	DEBUG 	Upload of Texture Font fontname complete
+25.6886 	INFO 	keyboard.Keyboard is using ptb backend.
+25.8277 	INFO 	keyboard.Keyboard is using ptb backend.
+25.9679 	INFO 	keyboard.Keyboard is using ptb backend.
+26.1066 	INFO 	keyboard.Keyboard is using ptb backend.
+26.2386 	INFO 	keyboard.Keyboard is using ptb backend.
+26.3777 	INFO 	keyboard.Keyboard is using ptb backend.
+26.5153 	INFO 	keyboard.Keyboard is using ptb backend.
+26.5155 	DEBUG 	Found speaker device: MacBook Pro-Lautsprecher (4.0)
+26.5695 	INFO 	Created stream for speaker device: MacBook Pro-Lautsprecher (4.0)
+26.6049 	DEBUG 	Found speaker device: MacBook Pro-Lautsprecher (4.0)
+26.6098 	INFO 	Created stream for speaker device: MacBook Pro-Lautsprecher (4.0)
+26.8482 	INFO 	keyboard.Keyboard is using ptb backend.
+26.8484 	DEBUG 	Found speaker device: MacBook Pro-Lautsprecher (4.0)
+26.8562 	INFO 	Created stream for speaker device: MacBook Pro-Lautsprecher (4.0)
+26.9236 	DEBUG 	Found speaker device: MacBook Pro-Lautsprecher (4.0)
+26.9324 	INFO 	Created stream for speaker device: MacBook Pro-Lautsprecher (4.0)
+27.1385 	INFO 	keyboard.Keyboard is using ptb backend.
+27.1386 	EXP 	CoSpeechGestures: status = STARTED
+27.2387 	EXP 	Created textWelcome = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='textWelcome', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+27.2664 	EXP 	Created textExplanation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.04), italic=False, languageStyle='LTR', name='textExplanation', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+27.2713 	EXP 	Created textInstructSpeak = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='textInstructSpeak', opacity=1, ori=0.0, pos=array([0. , 0.4]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+27.3073 	EXP 	Created imageSpeak = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='images/speak.png', interpolate=True, mask=None, maskParams=None, name='imageSpeak', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+27.3097 	EXP 	Created textInstructSpeak_continue = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='textInstructSpeak_continue', opacity=1, ori=0.0, pos=array([ 0. , -0.4]), rgb=UNKNOWN, text='Press SPACEBAR to continue.', units='height', win=Window(...), wrapWidth=1)
+27.3128 	EXP 	Created textInstructHand = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='textInstructHand', opacity=1, ori=0.0, pos=array([0. , 0.4]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+27.3149 	EXP 	Created textInstructHand_continue = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='textInstructHand_continue', opacity=1, ori=0.0, pos=array([ 0. , -0.4]), rgb=UNKNOWN, text='Press SPACEBAR to continue.', units='height', win=Window(...), wrapWidth=1)
+27.3235 	EXP 	Created imageInstructHand = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='images/hand.png', interpolate=True, mask=None, maskParams=None, name='imageInstructHand', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+27.3269 	EXP 	Created textInstructBoth = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='textInstructBoth', opacity=1, ori=0.0, pos=array([0. , 0.4]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+27.3633 	EXP 	Created imageInstructBoth = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='images/speak_gesture.png', interpolate=True, mask=None, maskParams=None, name='imageInstructBoth', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128.0, units='height', win=Window(...))
+27.3667 	EXP 	Created textInstructBoth_continue = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='textInstructBoth_continue', opacity=1, ori=0.0, pos=array([ 0. , -0.4]), rgb=UNKNOWN, text='Press SPACEBAR to continue.', units='height', win=Window(...), wrapWidth=1)
+27.3695 	EXP 	Created textBlockTraining = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='textBlockTraining', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+27.3704 	EXP 	Created itiTraining = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, draggable=False, fillColor=array([-1., -1., -1.]), fillColorSpace='rgb', fillRGB=array([-1., -1., -1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='itiTraining', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([2., 2.]), units='height', vertices=ndarray(...), win=Window(...))
+27.3755 	EXP 	Created trialStart_Training = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.3), italic=False, languageStyle='LTR', name='trialStart_Training', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='START', units='height', win=Window(...), wrapWidth=1)
+27.6738 	EXP 	soundStimulus_Training: sampleRate = 44100
+27.6738 	EXP 	soundStimulus_Training: channels = None
+27.6800 	DEBUG 	Converted audio clip from mono to stereo
+27.6845 	EXP 	Sound soundStimulus_Training set volume 1.000
+27.6913 	EXP 	Created instructionImageTraining = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='default.png', interpolate=True, mask=None, maskParams=None, name='instructionImageTraining', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128.0, units='height', win=Window(...))
+27.6985 	EXP 	Created actionCueTraining = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-6.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='actionCueTraining', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+27.6985 	EXP 	soundGoCue_Training: sampleRate = 44100
+27.6986 	EXP 	soundGoCue_Training: channels = None
+27.6990 	DEBUG 	Converted audio clip from mono to stereo
+27.6992 	EXP 	Sound soundGoCue_Training set volume 0.800
+28.1356 	DEBUG 	Saving data for CoSpeechGestures ExperimentHandler
+28.1368 	INFO 	saved data to /Users/sara-sofiagorriz/Library/CloudStorage/OneDrive-Chalmers/Experiments/CoSpeechGestures/data/pilot_CoSpeechGestures_2025-12-08_17h14.40.234.psydat
+28.1370 	INFO 	saved data to '/Users/sara-sofiagorriz/Library/CloudStorage/OneDrive-Chalmers/Experiments/CoSpeechGestures/data/pilot_CoSpeechGestures_2025-12-08_17h14.40.234.csv'
+28.1434 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+28.1435 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+28.1435 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+28.1435 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+28.1435 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+28.1435 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+28.1435 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+28.1435 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+28.1436 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
