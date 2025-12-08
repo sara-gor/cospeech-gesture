@@ -12,8 +12,8 @@ CoSpeechGestures/
 │   └── data/
 │
 CoSpeech_Congruency/
-│   ├── experiment_II.psyexp
-│   ├── experiment_II.py
+│   ├── CoSpeech_congruency.psyexp
+│   ├── CoSpeech_congruency.py
 │   ├── folderswithstimuli/
 │   └── data/
 │
