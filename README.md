@@ -4,25 +4,25 @@ This repository contains the materials and scripts for two experimental tasks in
 
 ## Repository Structure
 
-📂 CoSpeechGestures/
+CoSpeechGestures/
 │   ├── CoSpeechGestures.psyexp
 │   ├── CoSpeechGestures.py
 │   ├── stimuli/
 │   └── data/
 │
-📂 CoSpeech_Congruency/
+CoSpeech_Congruency/
 │   ├── experiment_II.psyexp
 │   ├── experiment_II.py
 │   ├── stimuli/
 │   └── data/
 │
-📄 README.md
+README.md
 
 
-## Experiment I: Co-speech Gesture
+### Experiment I: Co-speech Gesture
 This folder contains the full script and stimuli for the Co-speech Gesture task.
 
-## Experiment II: Speech–Gesture Congruency
+### Experiment II: Speech–Gesture Congruency
 This folder contains all materials for the Speech–Gesture Congruency task.
 
 
