@@ -1,33 +1,32 @@
-## Co-speech Gestures
+# Co-speech Gestures
 
 This repository contains the materials and scripts for two experimental tasks investigating co-speech gesture processing. Each experiment has its own dedicated folder, including PsychoPy scripts, Python scripts, and all required stimuli.
 
-# Repository Structure
+## Repository Structure
 
-📂 **CoSpeechGestures/**
-│   ├── **CoSpeechGestures.psyexp**
-│   ├── **CoSpeechGestures.py**
-│   ├── **stimuli/**
-│   └── **data/**
+📂 CoSpeechGestures/
+│   ├── CoSpeechGestures.psyexp
+│   ├── CoSpeechGestures.py
+│   ├── stimuli/
+│   └── data/
 │
-📂 **CoSpeech_Congruency/**
-│   ├── **experiment_II.psyexp**
-│   ├── **experiment_II.py**
-│   ├── **stimuli/**
-│   └── **data/**
+📂 CoSpeech_Congruency/
+│   ├── experiment_II.psyexp
+│   ├── experiment_II.py
+│   ├── stimuli/
+│   └── data/
 │
-📄 **README.md**
+📄 README.md
 
 
-
-# Experiment I: Co-speech Gesture
+## Experiment I: Co-speech Gesture
 This folder contains the full script and stimuli for the Co-speech Gesture task.
 
-# Experiment II: Speech–Gesture Congruency
+## Experiment II: Speech–Gesture Congruency
 This folder contains all materials for the Speech–Gesture Congruency task.
 
 
-# Running the Experiments
+## Running the Experiments
 You can run each experiment in one of two ways:
 
 1. Using PsychoPy Standalone (Recommended)
