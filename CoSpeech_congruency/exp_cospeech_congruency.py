@@ -1472,7 +1472,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     # update component parameters for each repeat
     # Run 'Begin Routine' code from code
     # Load the image to get its size
-    img = Image.open('/Users/sara-sofiagorriz/Library/CloudStorage/OneDrive-Chalmers/Experiments/CoSpeech_congruency/images/speak_gesture1.png')
+    img = Image.open('images/speak_gesture1.png')
     width, height = img.size
     
     # Convert pixel dimensions to PsychoPy units (assuming your window uses 'pix')
