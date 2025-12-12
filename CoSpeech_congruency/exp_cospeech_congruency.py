@@ -315,7 +315,8 @@ def setupDevices(expInfo, thisExp, win):
     deviceManager.addDevice(
         deviceName='audioStim_Training',
         deviceClass='psychopy.hardware.speaker.SpeakerDevice',
-        index='-1',
+        index=None,
+        name="SAMSUNG (NVIDIA High Definition Audio)",
         resample='True',
         latencyClass=1,
     )
@@ -323,7 +324,8 @@ def setupDevices(expInfo, thisExp, win):
     deviceManager.addDevice(
         deviceName='audioGoCue_Training',
         deviceClass='psychopy.hardware.speaker.SpeakerDevice',
-        index='-1',
+        index=None,
+        name="SAMSUNG (NVIDIA High Definition Audio)",
         resample='True',
         latencyClass=1,
     )
@@ -337,7 +339,8 @@ def setupDevices(expInfo, thisExp, win):
     deviceManager.addDevice(
         deviceName='audioStimuli',
         deviceClass='psychopy.hardware.speaker.SpeakerDevice',
-        index='-1',
+        index=None,
+        name="SAMSUNG (NVIDIA High Definition Audio)",
         resample='True',
         latencyClass=1,
     )
@@ -345,7 +348,8 @@ def setupDevices(expInfo, thisExp, win):
     deviceManager.addDevice(
         deviceName='audioGoCue',
         deviceClass='psychopy.hardware.speaker.SpeakerDevice',
-        index='-1',
+        index=None,
+        name="SAMSUNG (NVIDIA High Definition Audio)",
         resample='True',
         latencyClass=1,
     )
