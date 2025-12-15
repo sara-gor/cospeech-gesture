@@ -32,6 +32,7 @@ import os  # handy system and path functions
 import sys  # to get file system encoding
 
 from psychopy.hardware import keyboard
+import nidaqmx
 
 # --- Setup global variables (available in all functions) ---
 # create a device manager to handle hardware (keyboards, mice, mirophones, speakers, etc.)
@@ -53,6 +54,17 @@ expInfo = {
     'expVersion|hid': expVersion,
     'psychopyVersion|hid': psychopyVersion,
 }
+
+## Specify output port for trigger
+## Change channel if needed
+trigger_task = nidaqmx.Task()
+trigger_task.do_channels.add_do_chan("Dev1/port0/line0")
+
+## trigger function
+def send_trigger():
+    trigger_task.write(True)
+    core.wait(0.002)  # 2 milliseconds
+    trigger_task.write(False)
 
 # --- Define some variables which will change depending on pilot mode ---
 '''
@@ -303,7 +315,8 @@ def setupDevices(expInfo, thisExp, win):
     deviceManager.addDevice(
         deviceName='audioStim_Training',
         deviceClass='psychopy.hardware.speaker.SpeakerDevice',
-        index='-1',
+        index=None,
+        name="SAMSUNG (NVIDIA High Definition Audio)",
         resample='True',
         latencyClass=1,
     )
@@ -311,7 +324,8 @@ def setupDevices(expInfo, thisExp, win):
     deviceManager.addDevice(
         deviceName='audioGoCue_Training',
         deviceClass='psychopy.hardware.speaker.SpeakerDevice',
-        index='-1',
+        index=None,
+        name="SAMSUNG (NVIDIA High Definition Audio)",
         resample='True',
         latencyClass=1,
     )
@@ -325,7 +339,8 @@ def setupDevices(expInfo, thisExp, win):
     deviceManager.addDevice(
         deviceName='audioStimuli',
         deviceClass='psychopy.hardware.speaker.SpeakerDevice',
-        index='-1',
+        index=None,
+        name="SAMSUNG (NVIDIA High Definition Audio)",
         resample='True',
         latencyClass=1,
     )
@@ -333,7 +348,8 @@ def setupDevices(expInfo, thisExp, win):
     deviceManager.addDevice(
         deviceName='audioGoCue',
         deviceClass='psychopy.hardware.speaker.SpeakerDevice',
-        index='-1',
+        index=None,
+        name="SAMSUNG (NVIDIA High Definition Audio)",
         resample='True',
         latencyClass=1,
     )
@@ -1472,7 +1488,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     # update component parameters for each repeat
     # Run 'Begin Routine' code from code
     # Load the image to get its size
-    img = Image.open('/Users/sara-sofiagorriz/Library/CloudStorage/OneDrive-Chalmers/Experiments/CoSpeech_congruency/images/speak_gesture1.png')
+    img = Image.open('images/speak_gesture1.png')
     width, height = img.size
     
     # Convert pixel dimensions to PsychoPy units (assuming your window uses 'pix')
@@ -1958,6 +1974,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
                 # update status
                 textStart_Training.status = STARTED
                 textStart_Training.setAutoDraw(True)
+                send_trigger()
             
             # if textStart_Training is active this frame...
             if textStart_Training.status == STARTED:
@@ -2577,6 +2594,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
                     # update status
                     textStart.status = STARTED
                     textStart.setAutoDraw(True)
+                    send_trigger()
                 
                 # if textStart is active this frame...
                 if textStart.status == STARTED:

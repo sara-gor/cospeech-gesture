@@ -1,0 +1,1327 @@
+8.7825 	INFO 	Loaded monitor calibration from ['2025_12_11 11:48']
+8.7849 	WARNING 	Requested an unavailable screen number - using first available.
+8.9751 	INFO 	Using renderer 'NVIDIA GeForce RTX 5060/PCIe/SSE2' for graphics
+8.9752 	INFO 	OpenGL version supported by driver is 4..
+8.9827 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001756A7924A0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001756A792440>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001756CC64BE0>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(0.0), np.float64(0.0)], screen=1, size=array([1920, 1080]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+8.9827 	EXP 	window1: backgroundImage = ''
+8.9827 	EXP 	window1: backgroundFit = 'none'
+9.1919 	EXP 	window1: Attempting to measure frame rate of screen (1) ...
+9.1919 	EXP 	window1: recordFrameIntervals = False
+9.3239 	EXP 	window1: recordFrameIntervals = True
+9.5074 	EXP 	Screen (1) actual frame rate measured at 60.04Hz
+9.5075 	EXP 	window1: recordFrameIntervals = False
+9.5521 	INFO 	keyboard.Keyboard is using ptb backend.
+9.5522 	INFO 	keyboard.Keyboard is using ptb backend.
+9.5522 	INFO 	keyboard.Keyboard is using ptb backend.
+9.5523 	INFO 	keyboard.Keyboard is using ptb backend.
+9.5523 	INFO 	keyboard.Keyboard is using ptb backend.
+9.5523 	INFO 	keyboard.Keyboard is using ptb backend.
+9.5523 	INFO 	keyboard.Keyboard is using ptb backend.
+9.7061 	INFO 	New audio device 6 with handle 0 opened as PortAudio stream:
+9.7061 	INFO 	For 2 channels Playback: Audio subsystem is Windows WASAPI, Audio device name is SAMSUNG (NVIDIA High Definition Audio)
+9.7061 	INFO 	Real samplerate 48000.000000 Hz. Input latency 0.000000 msecs, Output latency 22.000000 msecs.
+9.7061 	INFO 	Created stream for speaker device: SAMSUNG (NVIDIA High Definition Audio) (6.0)
+9.7094 	INFO 	New audio device 6 with handle 1 opened as PortAudio stream:
+9.7094 	INFO 	For 2 channels Playback: Audio subsystem is Windows WASAPI, Audio device name is SAMSUNG (NVIDIA High Definition Audio)
+9.7095 	INFO 	Real samplerate 48000.000000 Hz. Input latency 0.000000 msecs, Output latency 22.000000 msecs.
+9.7095 	INFO 	Created stream for speaker device: SAMSUNG (NVIDIA High Definition Audio) (6.0)
+9.7102 	INFO 	keyboard.Keyboard is using ptb backend.
+9.7121 	INFO 	New audio device 6 with handle 2 opened as PortAudio stream:
+9.7121 	INFO 	For 2 channels Playback: Audio subsystem is Windows WASAPI, Audio device name is SAMSUNG (NVIDIA High Definition Audio)
+9.7121 	INFO 	Real samplerate 48000.000000 Hz. Input latency 0.000000 msecs, Output latency 22.000000 msecs.
+9.7122 	INFO 	Created stream for speaker device: SAMSUNG (NVIDIA High Definition Audio) (6.0)
+9.7149 	INFO 	New audio device 6 with handle 3 opened as PortAudio stream:
+9.7149 	INFO 	For 2 channels Playback: Audio subsystem is Windows WASAPI, Audio device name is SAMSUNG (NVIDIA High Definition Audio)
+9.7149 	INFO 	Real samplerate 48000.000000 Hz. Input latency 0.000000 msecs, Output latency 22.000000 msecs.
+9.7149 	INFO 	Created stream for speaker device: SAMSUNG (NVIDIA High Definition Audio) (6.0)
+9.7154 	INFO 	keyboard.Keyboard is using ptb backend.
+9.7155 	EXP 	exp_cospeech_congruency: status = STARTED
+9.7597 	EXP 	Created textWelcome = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.04), italic=False, languageStyle='LTR', name='textWelcome', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+9.7755 	EXP 	Created textExplanation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.04), italic=False, languageStyle='LTR', name='textExplanation', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+9.7800 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='images/speak.png', interpolate=True, mask=None, maskParams=None, name='image', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+9.7827 	EXP 	Created textInstructSpeak = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.04), italic=False, languageStyle='LTR', name='textInstructSpeak', opacity=1, ori=0.0, pos=array([0. , 0.4]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+9.7844 	EXP 	Created textInstructSpeak_continue = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.04), italic=False, languageStyle='LTR', name='textInstructSpeak_continue', opacity=1, ori=0.0, pos=array([ 0. , -0.4]), rgb=UNKNOWN, text='Press SPACEBAR to continue.', units='height', win=Window(...), wrapWidth=1)
+9.7870 	EXP 	Created textInstructHand = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.04), italic=False, languageStyle='LTR', name='textInstructHand', opacity=1, ori=0.0, pos=array([0. , 0.4]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+9.7909 	EXP 	Created imageInstructHand = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='images/hand.png', interpolate=True, mask=None, maskParams=None, name='imageInstructHand', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+9.7925 	EXP 	Created textInstructHand_continue = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.04), italic=False, languageStyle='LTR', name='textInstructHand_continue', opacity=1, ori=0.0, pos=array([ 0. , -0.4]), rgb=UNKNOWN, text='Press SPACEBAR to continue.', units='height', win=Window(...), wrapWidth=1)
+9.8040 	EXP 	Created imageInstructBoth = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='images/speak_gesture1.png', interpolate=True, mask=None, maskParams=None, name='imageInstructBoth', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128.0, units='height', win=Window(...))
+9.8076 	EXP 	Created textInstructBoth = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.04), italic=False, languageStyle='LTR', name='textInstructBoth', opacity=1, ori=0.0, pos=array([0. , 0.4]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+9.8119 	EXP 	Created textInstructBoth_continue = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='textInstructBoth_continue', opacity=1, ori=0.0, pos=array([ 0. , -0.4]), rgb=UNKNOWN, text='Press SPACEBAR to continue.', units='height', win=Window(...), wrapWidth=1)
+9.8161 	EXP 	Created textBlockTraining = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='textBlockTraining', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+9.8167 	EXP 	Created iti_Training = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, draggable=False, fillColor=array([-1., -1., -1.]), fillColorSpace='rgb', fillRGB=array([-1., -1., -1.]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=1.0, name='iti_Training', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([2., 2.]), units='height', vertices=ndarray(...), win=Window(...))
+9.8323 	EXP 	Created textStart_Training = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.3), italic=False, languageStyle='LTR', name='textStart_Training', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='START', units='height', win=Window(...), wrapWidth=1)
+9.8348 	WARNING 	Using `sdl2` for audio playback via `ffpyplayer`. This is not recommended for applications requiring precise audio-visual synchronization.
+9.8400 	INFO 	Loaded psychtoolbox audio version 3.0.19.696976569
+9.8401 	EXP 	audioStim_Training: sampleRate = 48000
+9.8401 	EXP 	audioStim_Training: channels = None
+9.8469 	EXP 	Sound audioStim_Training set volume 1.000
+9.8498 	EXP 	Created instructionImage_Training = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='default.png', interpolate=True, mask=None, maskParams=None, name='instructionImage_Training', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128.0, units='height', win=Window(...))
+9.8530 	EXP 	Created actionCue_Training = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-6.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='actionCue_Training', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+9.8572 	EXP 	audioGoCue_Training: sampleRate = 48000
+9.8572 	EXP 	audioGoCue_Training: channels = None
+9.8577 	EXP 	Sound audioGoCue_Training set volume 0.800
+9.8630 	EXP 	Created textBlockStart = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='textBlockStart', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+9.8636 	EXP 	Created iti = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, draggable=False, fillColor=array([-1., -1., -1.]), fillColorSpace='rgb', fillRGB=array([-1., -1., -1.]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=1.0, name='iti', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([2., 2.]), units='height', vertices=ndarray(...), win=Window(...))
+9.8646 	EXP 	Created textStart = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.3), italic=False, languageStyle='LTR', name='textStart', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='START', units='height', win=Window(...), wrapWidth=1)
+9.8647 	WARNING 	Using `sdl2` for audio playback via `ffpyplayer`. This is not recommended for applications requiring precise audio-visual synchronization.
+9.8689 	EXP 	audioStimuli: sampleRate = 48000
+9.8689 	EXP 	audioStimuli: channels = None
+9.8755 	EXP 	Sound audioStimuli set volume 1.000
+9.8778 	EXP 	Created instructionImage = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='default.png', interpolate=True, mask=None, maskParams=None, name='instructionImage', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128.0, units='height', win=Window(...))
+9.8796 	EXP 	Created actionCue = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-6.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='actionCue', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+9.8837 	EXP 	audioGoCue: sampleRate = 48000
+9.8837 	EXP 	audioGoCue: channels = None
+9.8842 	EXP 	Sound audioGoCue set volume 0.800
+9.8894 	EXP 	Created textPause = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='textPause', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+9.8942 	EXP 	Created textOneThird = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='textOneThird', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+9.8976 	EXP 	Created textTwothirds = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='textTwothirds', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+9.9044 	EXP 	Created textGoodbye = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='textGoodbye', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+0.0423 	EXP 	movieGesture_Training: autoLog = True
+0.0423 	EXP 	movieGesture: autoLog = True
+0.0438 	INFO 	Keyboard events cleared
+0.0437 	EXP 	textWelcome: autoDraw = True
+27.0367 	DATA 	Mouse: Left button down, pos=(807,439)
+27.0869 	DATA 	Mouse:  Left button up, pos=(808,438)
+27.7049 	EXP 	Device response: <KeyPress from None: t=27.701002800000424, value=space, duration=None>
+27.7057 	DATA 	Keypress: space
+27.7197 	INFO 	Keyboard events cleared
+27.7196 	EXP 	textWelcome: autoDraw = False
+27.7196 	EXP 	textExplanation: autoDraw = True
+27.7697 	EXP 	Device response: <KeyPress from None: t=27.701002800000424, value=space, duration=0.06775349999952596>
+45.2867 	EXP 	Device response: <KeyPress from None: t=45.27490260000013, value=space, duration=None>
+45.2885 	DATA 	Keypress: space
+45.3030 	INFO 	Keyboard events cleared
+45.3030 	EXP 	textExplanation: autoDraw = False
+45.3030 	EXP 	image: autoDraw = True
+45.3030 	EXP 	textInstructSpeak: autoDraw = True
+45.3030 	EXP 	textInstructSpeak_continue: autoDraw = True
+45.3698 	EXP 	Device response: <KeyPress from None: t=45.27490260000013, value=space, duration=0.08983850000004168>
+47.6032 	EXP 	Device response: <KeyPress from None: t=47.599858999999924, value=space, duration=None>
+47.6048 	DATA 	Keypress: space
+47.6197 	INFO 	Keyboard events cleared
+47.6197 	EXP 	image: autoDraw = False
+47.6197 	EXP 	textInstructSpeak: autoDraw = False
+47.6197 	EXP 	textInstructSpeak_continue: autoDraw = False
+47.6197 	EXP 	textInstructHand: autoDraw = True
+47.6197 	EXP 	imageInstructHand: autoDraw = True
+47.6197 	EXP 	textInstructHand_continue: autoDraw = True
+47.7198 	EXP 	Device response: <KeyPress from None: t=47.599858999999924, value=space, duration=0.10463329999947746>
+48.8865 	EXP 	Device response: <KeyPress from None: t=48.88234790000024, value=space, duration=None>
+48.8884 	DATA 	Keypress: space
+48.9031 	INFO 	Keyboard events cleared
+48.9030 	EXP 	textInstructHand: autoDraw = False
+48.9030 	EXP 	imageInstructHand: autoDraw = False
+48.9030 	EXP 	textInstructHand_continue: autoDraw = False
+48.9030 	EXP 	imageInstructBoth: autoDraw = True
+48.9030 	EXP 	textInstructBoth: autoDraw = True
+48.9030 	EXP 	textInstructBoth_continue: autoDraw = True
+48.9698 	EXP 	Device response: <KeyPress from None: t=48.88234790000024, value=space, duration=0.08227509999960603>
+50.0865 	EXP 	Device response: <KeyPress from None: t=50.074735500000315, value=space, duration=None>
+50.0991 	EXP 	Imported trainingTrials.csv as conditions, 18 conditions, 8 params
+50.0993 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'instructionType': 'gesture', 'instructionSymbol': 'images/hand.png', 'action': 'go', 'stimText': '"rising"', 'stimVideo': 'videos/falling_clip.mp4', 'stimAudio': 'audios/rising.wav', 'movement': 'arm', 'congruency': 'incongruent', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+50.1003 	DATA 	Keypress: space
+50.1031 	INFO 	Keyboard events cleared
+50.1031 	EXP 	imageInstructBoth: autoDraw = False
+50.1031 	EXP 	textInstructBoth: autoDraw = False
+50.1031 	EXP 	textInstructBoth_continue: autoDraw = False
+50.1031 	EXP 	textBlockTraining: autoDraw = True
+50.1531 	EXP 	Device response: <KeyPress from None: t=50.074735500000315, value=space, duration=0.07486779999999271>
+57.9699 	EXP 	Device response: <KeyPress from None: t=57.9647573000002, value=space, duration=None>
+57.9827 	INFO 	Opening movie file: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\falling_clip.mp4
+60.5119 	EXP 	audioStim_Training: sampleRate = 44100
+60.5176 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+60.5216 	EXP 	audioGoCue_Training: sampleRate = 44100
+60.5270 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+60.5343 	DATA 	Keypress: space
+60.5372 	EXP 	Device response: <KeyPress from None: t=57.9647573000002, value=space, duration=0.0897927999994863>
+60.5397 	EXP 	textBlockTraining: autoDraw = False
+60.5397 	EXP 	instructionImage_Training: image = 'images/hand.png'
+60.5397 	EXP 	actionCue_Training: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+60.5397 	EXP 	actionCue_Training: borderColor = <psychopy.colors.Color: green, alpha=1.0>
+60.5397 	EXP 	iti_Training: autoDraw = True
+60.5397 	EXP 	iti_Training: autoDraw = False
+60.5397 	EXP 	textStart_Training: autoDraw = True
+60.9532 	INFO 	Movie playback C:\Github\cospeech-gesture\CoSpeech_congruency\videos\falling_clip.mp4 started at 0.00 seconds
+60.9701 	EXP 	textStart_Training: autoDraw = False
+60.9701 	EXP 	movieGesture_Training: autoDraw = True
+61.4531 	EXP 	Sound audioStim_Training reached end of file
+61.4697 	EXP 	Playing sound audioStim_Training on speaker SAMSUNG (NVIDIA High Definition Audio)
+62.5111 	EXP 	Sound audioStim_Training reached end of file
+62.5199 	EXP 	Sound audioStim_Training reached end of file
+64.3636 	INFO 	Opening movie file: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\falling_clip.mp4
+66.7488 	INFO 	Movie stopped: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\falling_clip.mp4
+66.7507 	EXP 	movieGesture_Training: autoDraw = False
+66.7507 	EXP 	instructionImage_Training: autoDraw = True
+66.7509 	EXP 	Sound audioGoCue_Training reached end of file
+66.7673 	EXP 	Playing sound audioGoCue_Training on speaker SAMSUNG (NVIDIA High Definition Audio)
+66.7530 	EXP 	instructionImage_Training: autoDraw = False
+66.7530 	EXP 	actionCue_Training: autoDraw = True
+67.7655 	EXP 	Sound audioGoCue_Training stopped
+69.9533 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'instructionType': 'speech_gesture', 'instructionSymbol': 'images/speak_gesture1.png', 'action': 'go', 'stimText': '"me"', 'stimVideo': 'videos/me_clip.mp4', 'stimAudio': 'audios/me.wav', 'movement': 'hand_wrist', 'congruency': 'congruent', 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+69.9698 	INFO 	Keyboard events cleared
+69.9698 	EXP 	actionCue_Training: autoDraw = False
+69.9698 	EXP 	iti_Training: autoDraw = False
+69.9698 	EXP 	textStart_Training: autoDraw = False
+69.9698 	EXP 	movieGesture_Training: autoDraw = False
+69.9698 	EXP 	instructionImage_Training: autoDraw = False
+69.9698 	EXP 	actionCue_Training: autoDraw = False
+69.9698 	EXP 	textBlockTraining: autoDraw = True
+75.0037 	DATA 	Mouse: Left button down, pos=(117,164)
+75.0871 	DATA 	Mouse:  Left button up, pos=(117,164)
+79.5533 	EXP 	Device response: <KeyPress from None: t=79.55039500000021, value=space, duration=None>
+80.0188 	INFO 	Opening movie file: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\me_clip.mp4
+82.6534 	EXP 	audioStim_Training: sampleRate = 44100
+82.6591 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+82.6709 	EXP 	audioGoCue_Training: sampleRate = 44100
+82.6752 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+82.6777 	DATA 	Keypress: space
+82.6807 	INFO 	Movie playback C:\Github\cospeech-gesture\CoSpeech_congruency\videos\me_clip.mp4 started at 0.00 seconds
+82.6808 	EXP 	Device response: <KeyPress from None: t=79.55039500000021, value=space, duration=0.09014050000041607>
+82.6915 	EXP 	textBlockTraining: autoDraw = False
+82.6915 	EXP 	instructionImage_Training: image = 'images/speak_gesture1.png'
+82.6915 	EXP 	actionCue_Training: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+82.6915 	EXP 	actionCue_Training: borderColor = <psychopy.colors.Color: green, alpha=1.0>
+82.6915 	EXP 	iti_Training: autoDraw = True
+82.6915 	EXP 	iti_Training: autoDraw = False
+82.6915 	EXP 	textStart_Training: autoDraw = True
+82.6915 	EXP 	textStart_Training: autoDraw = False
+82.6915 	EXP 	movieGesture_Training: autoDraw = True
+83.0366 	EXP 	Sound audioStim_Training reached end of file
+83.0531 	EXP 	Playing sound audioStim_Training on speaker SAMSUNG (NVIDIA High Definition Audio)
+84.0768 	EXP 	Sound audioStim_Training reached end of file
+84.0865 	EXP 	Sound audioStim_Training reached end of file
+85.9823 	INFO 	Opening movie file: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\me_clip.mp4
+88.2075 	INFO 	Movie stopped: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\me_clip.mp4
+88.2092 	EXP 	movieGesture_Training: autoDraw = False
+88.2092 	EXP 	instructionImage_Training: autoDraw = True
+88.2094 	EXP 	Sound audioGoCue_Training reached end of file
+88.2258 	EXP 	Playing sound audioGoCue_Training on speaker SAMSUNG (NVIDIA High Definition Audio)
+88.2201 	EXP 	instructionImage_Training: autoDraw = False
+88.2201 	EXP 	actionCue_Training: autoDraw = True
+89.2371 	EXP 	Sound audioGoCue_Training stopped
+91.5367 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'instructionType': 'gesture', 'instructionSymbol': 'images/hand.png', 'action': 'go', 'stimText': '"falling"', 'stimVideo': 'videos/rising_clip.mp4', 'stimAudio': 'audios/falling.wav', 'movement': 'arm', 'congruency': 'incongruent', 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+91.5533 	INFO 	Keyboard events cleared
+91.5532 	EXP 	actionCue_Training: autoDraw = False
+91.5532 	EXP 	iti_Training: autoDraw = False
+91.5532 	EXP 	textStart_Training: autoDraw = False
+91.5532 	EXP 	movieGesture_Training: autoDraw = False
+91.5532 	EXP 	instructionImage_Training: autoDraw = False
+91.5532 	EXP 	actionCue_Training: autoDraw = False
+91.5532 	EXP 	textBlockTraining: autoDraw = True
+105.9201 	EXP 	Device response: <KeyPress from None: t=105.90712279999934, value=space, duration=None>
+106.4073 	INFO 	Opening movie file: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\rising_clip.mp4
+109.0122 	EXP 	audioStim_Training: sampleRate = 44100
+109.0162 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+109.0209 	EXP 	audioGoCue_Training: sampleRate = 44100
+109.0251 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+109.0282 	DATA 	Keypress: space
+109.0303 	INFO 	Movie playback C:\Github\cospeech-gesture\CoSpeech_congruency\videos\rising_clip.mp4 started at 0.00 seconds
+109.0304 	EXP 	Device response: <KeyPress from None: t=105.90712279999934, value=space, duration=0.09697670000059588>
+109.0386 	EXP 	textBlockTraining: autoDraw = False
+109.0386 	EXP 	instructionImage_Training: image = 'images/hand.png'
+109.0386 	EXP 	actionCue_Training: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+109.0386 	EXP 	actionCue_Training: borderColor = <psychopy.colors.Color: green, alpha=1.0>
+109.0386 	EXP 	iti_Training: autoDraw = True
+109.0386 	EXP 	iti_Training: autoDraw = False
+109.0386 	EXP 	textStart_Training: autoDraw = True
+109.0386 	EXP 	textStart_Training: autoDraw = False
+109.0386 	EXP 	movieGesture_Training: autoDraw = True
+109.4036 	EXP 	Sound audioStim_Training reached end of file
+109.4202 	EXP 	Playing sound audioStim_Training on speaker SAMSUNG (NVIDIA High Definition Audio)
+110.4643 	EXP 	Sound audioStim_Training reached end of file
+110.4700 	EXP 	Sound audioStim_Training reached end of file
+112.1562 	INFO 	Opening movie file: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\rising_clip.mp4
+114.6277 	INFO 	Movie stopped: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\rising_clip.mp4
+114.6293 	EXP 	movieGesture_Training: autoDraw = False
+114.6295 	EXP 	Sound audioGoCue_Training reached end of file
+114.6460 	EXP 	Playing sound audioGoCue_Training on speaker SAMSUNG (NVIDIA High Definition Audio)
+114.6366 	EXP 	instructionImage_Training: autoDraw = True
+114.6366 	EXP 	instructionImage_Training: autoDraw = False
+114.6366 	EXP 	actionCue_Training: autoDraw = True
+115.6475 	EXP 	Sound audioGoCue_Training stopped
+117.9039 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'instructionType': 'speech', 'instructionSymbol': 'images/speak.png', 'action': 'go', 'stimText': '"you"', 'stimVideo': 'videos/you_clip.mp4', 'stimAudio': 'audios/you.wav', 'movement': 'hand_wrist', 'congruency': 'congruent', 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+117.9205 	INFO 	Keyboard events cleared
+117.9204 	EXP 	actionCue_Training: autoDraw = False
+117.9204 	EXP 	iti_Training: autoDraw = False
+117.9204 	EXP 	textStart_Training: autoDraw = False
+117.9204 	EXP 	movieGesture_Training: autoDraw = False
+117.9204 	EXP 	instructionImage_Training: autoDraw = False
+117.9204 	EXP 	actionCue_Training: autoDraw = False
+117.9204 	EXP 	textBlockTraining: autoDraw = True
+120.9538 	EXP 	Device response: <KeyPress from None: t=120.95179610000014, value=space, duration=None>
+121.3589 	INFO 	Opening movie file: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\you_clip.mp4
+124.0262 	EXP 	audioStim_Training: sampleRate = 44100
+124.0298 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+124.0329 	EXP 	audioGoCue_Training: sampleRate = 44100
+124.0372 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+124.0396 	DATA 	Keypress: space
+124.0424 	INFO 	Movie playback C:\Github\cospeech-gesture\CoSpeech_congruency\videos\you_clip.mp4 started at 0.00 seconds
+124.0425 	EXP 	Device response: <KeyPress from None: t=120.95179610000014, value=space, duration=0.09847930000069027>
+124.0533 	EXP 	textBlockTraining: autoDraw = False
+124.0533 	EXP 	instructionImage_Training: image = 'images/speak.png'
+124.0533 	EXP 	actionCue_Training: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+124.0533 	EXP 	actionCue_Training: borderColor = <psychopy.colors.Color: green, alpha=1.0>
+124.0533 	EXP 	iti_Training: autoDraw = True
+124.0533 	EXP 	iti_Training: autoDraw = False
+124.0533 	EXP 	textStart_Training: autoDraw = True
+124.0533 	EXP 	textStart_Training: autoDraw = False
+124.0533 	EXP 	movieGesture_Training: autoDraw = True
+124.4367 	EXP 	Sound audioStim_Training reached end of file
+124.4532 	EXP 	Playing sound audioStim_Training on speaker SAMSUNG (NVIDIA High Definition Audio)
+125.4996 	EXP 	Sound audioStim_Training reached end of file
+125.5038 	EXP 	Sound audioStim_Training reached end of file
+127.3658 	INFO 	Opening movie file: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\you_clip.mp4
+129.5594 	INFO 	Movie stopped: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\you_clip.mp4
+129.5608 	EXP 	movieGesture_Training: autoDraw = False
+129.5608 	EXP 	instructionImage_Training: autoDraw = True
+129.5611 	EXP 	Sound audioGoCue_Training reached end of file
+129.5775 	EXP 	Playing sound audioGoCue_Training on speaker SAMSUNG (NVIDIA High Definition Audio)
+129.5700 	EXP 	instructionImage_Training: autoDraw = False
+129.5700 	EXP 	actionCue_Training: autoDraw = True
+130.5845 	EXP 	Sound audioGoCue_Training stopped
+132.9374 	EXP 	New trial (rep=0, index=4): <Trial 4 (4 in rep 0) data={'instructionType': 'speech', 'instructionSymbol': 'images/speak.png', 'action': 'go', 'stimText': '"rising"', 'stimVideo': 'videos/rising_clip.mp4', 'stimAudio': 'audios/rising.wav', 'movement': 'arm', 'congruency': 'congruent', 'thisN': 4, 'thisTrialN': 4, 'thisRepN': 0}>
+132.9540 	INFO 	Keyboard events cleared
+132.9540 	EXP 	actionCue_Training: autoDraw = False
+132.9540 	EXP 	iti_Training: autoDraw = False
+132.9540 	EXP 	textStart_Training: autoDraw = False
+132.9540 	EXP 	movieGesture_Training: autoDraw = False
+132.9540 	EXP 	instructionImage_Training: autoDraw = False
+132.9540 	EXP 	actionCue_Training: autoDraw = False
+132.9540 	EXP 	textBlockTraining: autoDraw = True
+136.3706 	EXP 	Device response: <KeyPress from None: t=136.36583559999963, value=return, duration=None>
+136.3712 	DATA 	Keypress: return
+136.5040 	EXP 	Device response: <KeyPress from None: t=136.36583559999963, value=return, duration=0.1267282000007981>
+138.3541 	EXP 	Device response: <KeyPress from None: t=138.3527240000003, value=space, duration=None>
+138.8876 	INFO 	Opening movie file: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\rising_clip.mp4
+141.4627 	EXP 	audioStim_Training: sampleRate = 44100
+141.4667 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+141.4698 	EXP 	audioGoCue_Training: sampleRate = 44100
+141.4739 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+141.4767 	DATA 	Keypress: space
+141.4794 	INFO 	Movie playback C:\Github\cospeech-gesture\CoSpeech_congruency\videos\rising_clip.mp4 started at 0.00 seconds
+141.4795 	EXP 	Device response: <KeyPress from None: t=138.3527240000003, value=space, duration=0.09823669999968843>
+141.4901 	EXP 	textBlockTraining: autoDraw = False
+141.4901 	EXP 	instructionImage_Training: image = 'images/speak.png'
+141.4901 	EXP 	actionCue_Training: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+141.4901 	EXP 	actionCue_Training: borderColor = <psychopy.colors.Color: green, alpha=1.0>
+141.4901 	EXP 	iti_Training: autoDraw = True
+141.4901 	EXP 	iti_Training: autoDraw = False
+141.4901 	EXP 	textStart_Training: autoDraw = True
+141.4901 	EXP 	textStart_Training: autoDraw = False
+141.4901 	EXP 	movieGesture_Training: autoDraw = True
+141.8368 	EXP 	Sound audioStim_Training reached end of file
+141.8534 	EXP 	Playing sound audioStim_Training on speaker SAMSUNG (NVIDIA High Definition Audio)
+142.9006 	EXP 	Sound audioStim_Training reached end of file
+142.9036 	EXP 	Sound audioStim_Training reached end of file
+144.5997 	INFO 	Opening movie file: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\rising_clip.mp4
+146.9146 	INFO 	Movie stopped: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\rising_clip.mp4
+146.9160 	EXP 	movieGesture_Training: autoDraw = False
+146.9163 	EXP 	Sound audioGoCue_Training reached end of file
+146.9327 	EXP 	Playing sound audioGoCue_Training on speaker SAMSUNG (NVIDIA High Definition Audio)
+146.9201 	EXP 	instructionImage_Training: autoDraw = True
+146.9201 	EXP 	instructionImage_Training: autoDraw = False
+146.9201 	EXP 	actionCue_Training: autoDraw = True
+147.9369 	EXP 	Sound audioGoCue_Training stopped
+150.3375 	EXP 	New trial (rep=0, index=5): <Trial 5 (5 in rep 0) data={'instructionType': 'gesture', 'instructionSymbol': 'images/hand.png', 'action': 'go', 'stimText': '"falling"', 'stimVideo': 'videos/falling_clip.mp4', 'stimAudio': 'audios/falling.wav', 'movement': 'arm', 'congruency': 'congruent', 'thisN': 5, 'thisTrialN': 5, 'thisRepN': 0}>
+150.3540 	INFO 	Keyboard events cleared
+150.3539 	EXP 	actionCue_Training: autoDraw = False
+150.3539 	EXP 	iti_Training: autoDraw = False
+150.3539 	EXP 	textStart_Training: autoDraw = False
+150.3539 	EXP 	movieGesture_Training: autoDraw = False
+150.3539 	EXP 	instructionImage_Training: autoDraw = False
+150.3539 	EXP 	actionCue_Training: autoDraw = False
+150.3539 	EXP 	textBlockTraining: autoDraw = True
+668.1070 	DATA 	Mouse: Left button down, pos=(818,387)
+668.1905 	DATA 	Mouse:  Left button up, pos=(818,382)
+669.0901 	EXP 	Device response: <KeyPress from None: t=669.0753977999993, value=space, duration=None>
+669.5722 	INFO 	Opening movie file: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\falling_clip.mp4
+671.9725 	EXP 	audioStim_Training: sampleRate = 44100
+671.9766 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+671.9801 	EXP 	audioGoCue_Training: sampleRate = 44100
+671.9846 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+671.9879 	DATA 	Keypress: space
+671.9882 	DATA 	Mouse: Left button down, pos=(926,393)
+671.9883 	DATA 	Mouse:  Left button up, pos=(927,393)
+671.9885 	DATA 	Keypress: space
+671.9887 	DATA 	Mouse: Left button down, pos=(1202,735)
+671.9888 	DATA 	Mouse:  Left button up, pos=(1202,735)
+671.9908 	EXP 	Device response: <KeyPress from None: t=669.0753977999993, value=space, duration=0.08298150000155147>
+671.9908 	EXP 	Device response: <KeyPress from None: t=670.8082273, value=space, duration=None>
+671.9908 	EXP 	Device response: <KeyPress from None: t=670.8082273, value=space, duration=0.10482600000068487>
+671.9933 	EXP 	textBlockTraining: autoDraw = False
+671.9933 	EXP 	instructionImage_Training: image = 'images/hand.png'
+671.9933 	EXP 	actionCue_Training: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+671.9933 	EXP 	actionCue_Training: borderColor = <psychopy.colors.Color: green, alpha=1.0>
+671.9933 	EXP 	iti_Training: autoDraw = True
+671.9933 	EXP 	iti_Training: autoDraw = False
+671.9933 	EXP 	textStart_Training: autoDraw = True
+672.0729 	INFO 	Movie playback C:\Github\cospeech-gesture\CoSpeech_congruency\videos\falling_clip.mp4 started at 0.00 seconds
+672.0902 	EXP 	textStart_Training: autoDraw = False
+672.0902 	EXP 	movieGesture_Training: autoDraw = True
+672.5733 	EXP 	Sound audioStim_Training reached end of file
+672.5899 	EXP 	Playing sound audioStim_Training on speaker SAMSUNG (NVIDIA High Definition Audio)
+673.6346 	EXP 	Sound audioStim_Training reached end of file
+673.6396 	EXP 	Sound audioStim_Training reached end of file
+675.4883 	INFO 	Opening movie file: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\falling_clip.mp4
+678.0286 	INFO 	Movie stopped: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\falling_clip.mp4
+678.0301 	EXP 	movieGesture_Training: autoDraw = False
+678.0301 	EXP 	instructionImage_Training: autoDraw = True
+678.0302 	EXP 	Sound audioGoCue_Training reached end of file
+678.0467 	EXP 	Playing sound audioGoCue_Training on speaker SAMSUNG (NVIDIA High Definition Audio)
+678.0395 	EXP 	instructionImage_Training: autoDraw = False
+678.0395 	EXP 	actionCue_Training: autoDraw = True
+679.0510 	EXP 	Sound audioGoCue_Training stopped
+681.0730 	EXP 	New trial (rep=0, index=6): <Trial 6 (6 in rep 0) data={'instructionType': 'gesture', 'instructionSymbol': 'images/hand.png', 'action': 'go', 'stimText': '"me"', 'stimVideo': 'videos/me_clip.mp4', 'stimAudio': 'audios/me.wav', 'movement': 'hand_wrist', 'congruency': 'congruent', 'thisN': 6, 'thisTrialN': 6, 'thisRepN': 0}>
+681.0894 	INFO 	Keyboard events cleared
+681.0894 	EXP 	actionCue_Training: autoDraw = False
+681.0894 	EXP 	iti_Training: autoDraw = False
+681.0894 	EXP 	textStart_Training: autoDraw = False
+681.0894 	EXP 	movieGesture_Training: autoDraw = False
+681.0894 	EXP 	instructionImage_Training: autoDraw = False
+681.0894 	EXP 	actionCue_Training: autoDraw = False
+681.0894 	EXP 	textBlockTraining: autoDraw = True
+681.6901 	EXP 	Device response: <KeyPress from None: t=681.6761698999999, value=space, duration=None>
+682.0601 	INFO 	Opening movie file: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\me_clip.mp4
+684.6048 	EXP 	audioStim_Training: sampleRate = 44100
+684.6098 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+684.6132 	EXP 	audioGoCue_Training: sampleRate = 44100
+684.6175 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+684.6208 	DATA 	Keypress: space
+684.6235 	EXP 	Device response: <KeyPress from None: t=681.6761698999999, value=space, duration=0.09735639999962586>
+684.6253 	EXP 	textBlockTraining: autoDraw = False
+684.6253 	EXP 	instructionImage_Training: image = 'images/hand.png'
+684.6253 	EXP 	actionCue_Training: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+684.6253 	EXP 	actionCue_Training: borderColor = <psychopy.colors.Color: green, alpha=1.0>
+684.6253 	EXP 	iti_Training: autoDraw = True
+684.6253 	EXP 	iti_Training: autoDraw = False
+684.6253 	EXP 	textStart_Training: autoDraw = True
+684.6771 	INFO 	Movie playback C:\Github\cospeech-gesture\CoSpeech_congruency\videos\me_clip.mp4 started at 0.00 seconds
+684.6937 	EXP 	textStart_Training: autoDraw = False
+684.6937 	EXP 	movieGesture_Training: autoDraw = True
+685.1728 	EXP 	Sound audioStim_Training reached end of file
+685.1894 	EXP 	Playing sound audioStim_Training on speaker SAMSUNG (NVIDIA High Definition Audio)
+686.2165 	EXP 	Sound audioStim_Training reached end of file
+686.2232 	EXP 	Sound audioStim_Training reached end of file
+688.1301 	INFO 	Opening movie file: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\me_clip.mp4
+690.6154 	INFO 	Movie stopped: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\me_clip.mp4
+690.6170 	EXP 	movieGesture_Training: autoDraw = False
+690.6170 	EXP 	instructionImage_Training: autoDraw = True
+690.6172 	EXP 	Sound audioGoCue_Training reached end of file
+690.6337 	EXP 	Playing sound audioGoCue_Training on speaker SAMSUNG (NVIDIA High Definition Audio)
+690.6228 	EXP 	instructionImage_Training: autoDraw = False
+690.6228 	EXP 	actionCue_Training: autoDraw = True
+691.6369 	EXP 	Sound audioGoCue_Training stopped
+693.6735 	EXP 	New trial (rep=0, index=7): <Trial 7 (7 in rep 0) data={'instructionType': 'speech_gesture', 'instructionSymbol': 'images/speak_gesture1.png', 'action': 'nogo', 'stimText': '"you"', 'stimVideo': 'videos/me_clip.mp4', 'stimAudio': 'audios/you.wav', 'movement': 'hand_wrist', 'congruency': 'incongruent', 'thisN': 7, 'thisTrialN': 7, 'thisRepN': 0}>
+693.6900 	INFO 	Keyboard events cleared
+693.6900 	EXP 	actionCue_Training: autoDraw = False
+693.6900 	EXP 	iti_Training: autoDraw = False
+693.6900 	EXP 	textStart_Training: autoDraw = False
+693.6900 	EXP 	movieGesture_Training: autoDraw = False
+693.6900 	EXP 	instructionImage_Training: autoDraw = False
+693.6900 	EXP 	actionCue_Training: autoDraw = False
+693.6900 	EXP 	textBlockTraining: autoDraw = True
+694.3902 	EXP 	Device response: <KeyPress from None: t=694.3749306000009, value=space, duration=None>
+694.8124 	INFO 	Opening movie file: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\me_clip.mp4
+697.2873 	EXP 	audioStim_Training: sampleRate = 44100
+697.2916 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+697.3039 	EXP 	audioGoCue_Training: sampleRate = 44100
+697.3080 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+697.3105 	DATA 	Keypress: space
+697.3135 	EXP 	Device response: <KeyPress from None: t=694.3749306000009, value=space, duration=0.1421569999984058>
+697.3190 	EXP 	textBlockTraining: autoDraw = False
+697.3190 	EXP 	instructionImage_Training: image = 'images/speak_gesture1.png'
+697.3190 	EXP 	actionCue_Training: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+697.3190 	EXP 	actionCue_Training: borderColor = <psychopy.colors.Color: red, alpha=1.0>
+697.3190 	EXP 	iti_Training: autoDraw = True
+697.3190 	EXP 	iti_Training: autoDraw = False
+697.3190 	EXP 	textStart_Training: autoDraw = True
+697.3730 	INFO 	Movie playback C:\Github\cospeech-gesture\CoSpeech_congruency\videos\me_clip.mp4 started at 0.00 seconds
+697.3926 	EXP 	textStart_Training: autoDraw = False
+697.3926 	EXP 	movieGesture_Training: autoDraw = True
+697.8736 	EXP 	Sound audioStim_Training reached end of file
+697.8902 	EXP 	Playing sound audioStim_Training on speaker SAMSUNG (NVIDIA High Definition Audio)
+698.9379 	EXP 	Sound audioStim_Training reached end of file
+698.9395 	EXP 	Sound audioStim_Training reached end of file
+700.8100 	INFO 	Opening movie file: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\me_clip.mp4
+703.4221 	INFO 	Movie stopped: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\me_clip.mp4
+703.4248 	EXP 	movieGesture_Training: autoDraw = False
+703.4248 	EXP 	instructionImage_Training: autoDraw = True
+703.4250 	EXP 	Sound audioGoCue_Training reached end of file
+703.4415 	EXP 	Playing sound audioGoCue_Training on speaker SAMSUNG (NVIDIA High Definition Audio)
+703.4428 	EXP 	instructionImage_Training: autoDraw = False
+703.4428 	EXP 	actionCue_Training: autoDraw = True
+704.4600 	EXP 	Sound audioGoCue_Training stopped
+706.3735 	EXP 	New trial (rep=0, index=8): <Trial 8 (8 in rep 0) data={'instructionType': 'speech_gesture', 'instructionSymbol': 'images/speak_gesture1.png', 'action': 'go', 'stimText': '"falling"', 'stimVideo': 'videos/rising_clip.mp4', 'stimAudio': 'audios/falling.wav', 'movement': 'arm', 'congruency': 'incongruent', 'thisN': 8, 'thisTrialN': 8, 'thisRepN': 0}>
+706.3902 	INFO 	Keyboard events cleared
+706.3902 	EXP 	actionCue_Training: autoDraw = False
+706.3902 	EXP 	iti_Training: autoDraw = False
+706.3902 	EXP 	textStart_Training: autoDraw = False
+706.3902 	EXP 	movieGesture_Training: autoDraw = False
+706.3902 	EXP 	instructionImage_Training: autoDraw = False
+706.3902 	EXP 	actionCue_Training: autoDraw = False
+706.3902 	EXP 	textBlockTraining: autoDraw = True
+707.2401 	EXP 	Device response: <KeyPress from None: t=707.2299782000009, value=space, duration=None>
+707.6321 	INFO 	Opening movie file: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\rising_clip.mp4
+710.0493 	EXP 	audioStim_Training: sampleRate = 44100
+710.0534 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+710.0623 	EXP 	audioGoCue_Training: sampleRate = 44100
+710.0663 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+710.0694 	DATA 	Keypress: space
+710.0721 	EXP 	Device response: <KeyPress from None: t=707.2299782000009, value=space, duration=0.1350320000001375>
+710.0747 	EXP 	textBlockTraining: autoDraw = False
+710.0747 	EXP 	instructionImage_Training: image = 'images/speak_gesture1.png'
+710.0747 	EXP 	actionCue_Training: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+710.0747 	EXP 	actionCue_Training: borderColor = <psychopy.colors.Color: green, alpha=1.0>
+710.0747 	EXP 	iti_Training: autoDraw = True
+710.0747 	EXP 	iti_Training: autoDraw = False
+710.0747 	EXP 	textStart_Training: autoDraw = True
+710.2270 	INFO 	Movie playback C:\Github\cospeech-gesture\CoSpeech_congruency\videos\rising_clip.mp4 started at 0.00 seconds
+710.2438 	EXP 	textStart_Training: autoDraw = False
+710.2438 	EXP 	movieGesture_Training: autoDraw = True
+710.7230 	EXP 	Sound audioStim_Training reached end of file
+710.7396 	EXP 	Playing sound audioStim_Training on speaker SAMSUNG (NVIDIA High Definition Audio)
+711.7837 	EXP 	Sound audioStim_Training reached end of file
+711.7896 	EXP 	Sound audioStim_Training reached end of file
+713.3706 	INFO 	Opening movie file: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\rising_clip.mp4
+715.7410 	INFO 	Movie stopped: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\rising_clip.mp4
+715.7420 	EXP 	movieGesture_Training: autoDraw = False
+715.7423 	EXP 	Sound audioGoCue_Training reached end of file
+715.7586 	EXP 	Playing sound audioGoCue_Training on speaker SAMSUNG (NVIDIA High Definition Audio)
+715.7563 	EXP 	instructionImage_Training: autoDraw = True
+715.7563 	EXP 	instructionImage_Training: autoDraw = False
+715.7563 	EXP 	actionCue_Training: autoDraw = True
+716.7700 	EXP 	Sound audioGoCue_Training stopped
+719.2237 	EXP 	New trial (rep=0, index=9): <Trial 9 (9 in rep 0) data={'instructionType': 'speech_gesture', 'instructionSymbol': 'images/speak_gesture1.png', 'action': 'go', 'stimText': '"rising"', 'stimVideo': 'videos/rising_clip.mp4', 'stimAudio': 'audios/rising.wav', 'movement': 'arm', 'congruency': 'congruent', 'thisN': 9, 'thisTrialN': 9, 'thisRepN': 0}>
+719.2401 	INFO 	Keyboard events cleared
+719.2401 	EXP 	actionCue_Training: autoDraw = False
+719.2401 	EXP 	iti_Training: autoDraw = False
+719.2401 	EXP 	textStart_Training: autoDraw = False
+719.2401 	EXP 	movieGesture_Training: autoDraw = False
+719.2401 	EXP 	instructionImage_Training: autoDraw = False
+719.2401 	EXP 	actionCue_Training: autoDraw = False
+719.2401 	EXP 	textBlockTraining: autoDraw = True
+720.5569 	EXP 	Device response: <KeyPress from None: t=720.5437784000005, value=space, duration=None>
+720.9423 	INFO 	Opening movie file: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\rising_clip.mp4
+723.4529 	EXP 	audioStim_Training: sampleRate = 44100
+723.4570 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+723.4658 	EXP 	audioGoCue_Training: sampleRate = 44100
+723.4699 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+723.4729 	DATA 	Keypress: space
+723.4757 	EXP 	Device response: <KeyPress from None: t=720.5437784000005, value=space, duration=0.13517299999875831>
+723.4811 	EXP 	textBlockTraining: autoDraw = False
+723.4811 	EXP 	instructionImage_Training: image = 'images/speak_gesture1.png'
+723.4811 	EXP 	actionCue_Training: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+723.4811 	EXP 	actionCue_Training: borderColor = <psychopy.colors.Color: green, alpha=1.0>
+723.4811 	EXP 	iti_Training: autoDraw = True
+723.4811 	EXP 	iti_Training: autoDraw = False
+723.4811 	EXP 	textStart_Training: autoDraw = True
+723.5454 	INFO 	Movie playback C:\Github\cospeech-gesture\CoSpeech_congruency\videos\rising_clip.mp4 started at 0.00 seconds
+723.5638 	EXP 	textStart_Training: autoDraw = False
+723.5638 	EXP 	movieGesture_Training: autoDraw = True
+724.0398 	EXP 	Sound audioStim_Training reached end of file
+724.0564 	EXP 	Playing sound audioStim_Training on speaker SAMSUNG (NVIDIA High Definition Audio)
+725.1065 	EXP 	Sound audioStim_Training reached end of file
+725.1231 	EXP 	Sound audioStim_Training reached end of file
+726.7690 	INFO 	Opening movie file: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\rising_clip.mp4
+729.2980 	INFO 	Movie stopped: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\rising_clip.mp4
+729.3001 	EXP 	movieGesture_Training: autoDraw = False
+729.3005 	EXP 	Sound audioGoCue_Training reached end of file
+729.3167 	EXP 	Playing sound audioGoCue_Training on speaker SAMSUNG (NVIDIA High Definition Audio)
+729.3063 	EXP 	instructionImage_Training: autoDraw = True
+729.3063 	EXP 	instructionImage_Training: autoDraw = False
+729.3063 	EXP 	actionCue_Training: autoDraw = True
+730.3227 	EXP 	Sound audioGoCue_Training stopped
+732.5401 	EXP 	New trial (rep=0, index=10): <Trial 10 (10 in rep 0) data={'instructionType': 'speech', 'instructionSymbol': 'images/speak.png', 'action': 'go', 'stimText': '"falling"', 'stimVideo': 'videos/falling_clip.mp4', 'stimAudio': 'audios/falling.wav', 'movement': 'arm', 'congruency': 'congruent', 'thisN': 10, 'thisTrialN': 10, 'thisRepN': 0}>
+732.5565 	INFO 	Keyboard events cleared
+732.5565 	EXP 	actionCue_Training: autoDraw = False
+732.5565 	EXP 	iti_Training: autoDraw = False
+732.5565 	EXP 	textStart_Training: autoDraw = False
+732.5565 	EXP 	movieGesture_Training: autoDraw = False
+732.5565 	EXP 	instructionImage_Training: autoDraw = False
+732.5565 	EXP 	actionCue_Training: autoDraw = False
+732.5565 	EXP 	textBlockTraining: autoDraw = True
+735.6733 	EXP 	Device response: <KeyPress from None: t=735.6634491000004, value=space, duration=None>
+736.1820 	INFO 	Opening movie file: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\falling_clip.mp4
+738.5851 	EXP 	audioStim_Training: sampleRate = 44100
+738.5893 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+738.5939 	EXP 	audioGoCue_Training: sampleRate = 44100
+738.5984 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+738.6022 	DATA 	Keypress: space
+738.6042 	EXP 	Device response: <KeyPress from None: t=735.6634491000004, value=space, duration=0.11317690000032599>
+738.6091 	EXP 	textBlockTraining: autoDraw = False
+738.6091 	EXP 	instructionImage_Training: image = 'images/speak.png'
+738.6091 	EXP 	actionCue_Training: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+738.6091 	EXP 	actionCue_Training: borderColor = <psychopy.colors.Color: green, alpha=1.0>
+738.6091 	EXP 	iti_Training: autoDraw = True
+738.6091 	EXP 	iti_Training: autoDraw = False
+738.6091 	EXP 	textStart_Training: autoDraw = True
+738.6603 	INFO 	Movie playback C:\Github\cospeech-gesture\CoSpeech_congruency\videos\falling_clip.mp4 started at 0.00 seconds
+738.6753 	EXP 	textStart_Training: autoDraw = False
+738.6753 	EXP 	movieGesture_Training: autoDraw = True
+739.1566 	EXP 	Sound audioStim_Training reached end of file
+739.1732 	EXP 	Playing sound audioStim_Training on speaker SAMSUNG (NVIDIA High Definition Audio)
+740.2180 	EXP 	Sound audioStim_Training reached end of file
+740.2232 	EXP 	Sound audioStim_Training reached end of file
+742.1221 	INFO 	Opening movie file: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\falling_clip.mp4
+744.6891 	INFO 	Movie stopped: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\falling_clip.mp4
+744.6920 	EXP 	movieGesture_Training: autoDraw = False
+744.6920 	EXP 	instructionImage_Training: autoDraw = True
+744.6922 	EXP 	Sound audioGoCue_Training reached end of file
+744.7087 	EXP 	Playing sound audioGoCue_Training on speaker SAMSUNG (NVIDIA High Definition Audio)
+744.7072 	EXP 	instructionImage_Training: autoDraw = False
+744.7072 	EXP 	actionCue_Training: autoDraw = True
+745.7192 	EXP 	Sound audioGoCue_Training stopped
+747.6568 	EXP 	New trial (rep=0, index=11): <Trial 11 (11 in rep 0) data={'instructionType': 'speech', 'instructionSymbol': 'images/speak.png', 'action': 'go', 'stimText': '"you"', 'stimVideo': 'videos/me_clip.mp4', 'stimAudio': 'audios/you.wav', 'movement': 'hand_wrist', 'congruency': 'incongruent', 'thisN': 11, 'thisTrialN': 11, 'thisRepN': 0}>
+747.6733 	INFO 	Keyboard events cleared
+747.6732 	EXP 	actionCue_Training: autoDraw = False
+747.6732 	EXP 	iti_Training: autoDraw = False
+747.6732 	EXP 	textStart_Training: autoDraw = False
+747.6732 	EXP 	movieGesture_Training: autoDraw = False
+747.6732 	EXP 	instructionImage_Training: autoDraw = False
+747.6732 	EXP 	actionCue_Training: autoDraw = False
+747.6732 	EXP 	textBlockTraining: autoDraw = True
+752.7234 	EXP 	Device response: <KeyPress from None: t=752.7116019999994, value=space, duration=None>
+753.1508 	INFO 	Opening movie file: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\me_clip.mp4
+755.6314 	EXP 	audioStim_Training: sampleRate = 44100
+755.6359 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+755.6392 	EXP 	audioGoCue_Training: sampleRate = 44100
+755.6439 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+755.6471 	DATA 	Keypress: space
+755.6499 	EXP 	Device response: <KeyPress from None: t=752.7116019999994, value=space, duration=0.09008080000057817>
+755.6547 	EXP 	textBlockTraining: autoDraw = False
+755.6547 	EXP 	instructionImage_Training: image = 'images/speak.png'
+755.6547 	EXP 	actionCue_Training: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+755.6547 	EXP 	actionCue_Training: borderColor = <psychopy.colors.Color: green, alpha=1.0>
+755.6547 	EXP 	iti_Training: autoDraw = True
+755.6547 	EXP 	iti_Training: autoDraw = False
+755.6547 	EXP 	textStart_Training: autoDraw = True
+755.7111 	INFO 	Movie playback C:\Github\cospeech-gesture\CoSpeech_congruency\videos\me_clip.mp4 started at 0.00 seconds
+755.7321 	EXP 	textStart_Training: autoDraw = False
+755.7321 	EXP 	movieGesture_Training: autoDraw = True
+756.2066 	EXP 	Sound audioStim_Training reached end of file
+756.2231 	EXP 	Playing sound audioStim_Training on speaker SAMSUNG (NVIDIA High Definition Audio)
+757.2644 	EXP 	Sound audioStim_Training reached end of file
+757.2737 	EXP 	Sound audioStim_Training reached end of file
+759.1609 	INFO 	Opening movie file: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\me_clip.mp4
+761.5114 	INFO 	Movie stopped: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\me_clip.mp4
+761.5126 	EXP 	movieGesture_Training: autoDraw = False
+761.5126 	EXP 	instructionImage_Training: autoDraw = True
+761.5129 	EXP 	Sound audioGoCue_Training reached end of file
+761.5293 	EXP 	Playing sound audioGoCue_Training on speaker SAMSUNG (NVIDIA High Definition Audio)
+761.5232 	EXP 	instructionImage_Training: autoDraw = False
+761.5232 	EXP 	actionCue_Training: autoDraw = True
+762.5418 	EXP 	Sound audioGoCue_Training stopped
+764.7072 	EXP 	New trial (rep=0, index=12): <Trial 12 (12 in rep 0) data={'instructionType': 'speech_gesture', 'instructionSymbol': 'images/speak_gesture1.png', 'action': 'go', 'stimText': '"you"', 'stimVideo': 'videos/me_clip.mp4', 'stimAudio': 'audios/you.wav', 'movement': 'hand_wrist', 'congruency': 'incongruent', 'thisN': 12, 'thisTrialN': 12, 'thisRepN': 0}>
+764.7237 	INFO 	Keyboard events cleared
+764.7237 	EXP 	actionCue_Training: autoDraw = False
+764.7237 	EXP 	iti_Training: autoDraw = False
+764.7237 	EXP 	textStart_Training: autoDraw = False
+764.7237 	EXP 	movieGesture_Training: autoDraw = False
+764.7237 	EXP 	instructionImage_Training: autoDraw = False
+764.7237 	EXP 	actionCue_Training: autoDraw = False
+764.7237 	EXP 	textBlockTraining: autoDraw = True
+773.3238 	EXP 	Device response: <KeyPress from None: t=773.3141452, value=space, duration=None>
+773.7259 	INFO 	Opening movie file: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\me_clip.mp4
+776.1819 	EXP 	audioStim_Training: sampleRate = 44100
+776.1855 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+776.1966 	EXP 	audioGoCue_Training: sampleRate = 44100
+776.2011 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+776.2042 	DATA 	Keypress: space
+776.2063 	EXP 	Device response: <KeyPress from None: t=773.3141452, value=space, duration=0.083101500000339>
+776.2143 	EXP 	textBlockTraining: autoDraw = False
+776.2143 	EXP 	instructionImage_Training: image = 'images/speak_gesture1.png'
+776.2143 	EXP 	actionCue_Training: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+776.2143 	EXP 	actionCue_Training: borderColor = <psychopy.colors.Color: green, alpha=1.0>
+776.2143 	EXP 	iti_Training: autoDraw = True
+776.2143 	EXP 	iti_Training: autoDraw = False
+776.2143 	EXP 	textStart_Training: autoDraw = True
+776.3067 	INFO 	Movie playback C:\Github\cospeech-gesture\CoSpeech_congruency\videos\me_clip.mp4 started at 0.00 seconds
+776.3241 	EXP 	textStart_Training: autoDraw = False
+776.3241 	EXP 	movieGesture_Training: autoDraw = True
+776.8071 	EXP 	Sound audioStim_Training reached end of file
+776.8237 	EXP 	Playing sound audioStim_Training on speaker SAMSUNG (NVIDIA High Definition Audio)
+777.8683 	EXP 	Sound audioStim_Training reached end of file
+777.8733 	EXP 	Sound audioStim_Training reached end of file
+779.7102 	INFO 	Opening movie file: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\me_clip.mp4
+782.1414 	INFO 	Movie stopped: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\me_clip.mp4
+782.1441 	EXP 	movieGesture_Training: autoDraw = False
+782.1441 	EXP 	instructionImage_Training: autoDraw = True
+782.1442 	EXP 	Sound audioGoCue_Training reached end of file
+782.1607 	EXP 	Playing sound audioGoCue_Training on speaker SAMSUNG (NVIDIA High Definition Audio)
+782.1610 	EXP 	instructionImage_Training: autoDraw = False
+782.1610 	EXP 	actionCue_Training: autoDraw = True
+783.1699 	EXP 	Sound audioGoCue_Training stopped
+785.3068 	EXP 	New trial (rep=0, index=13): <Trial 13 (13 in rep 0) data={'instructionType': 'speech_gesture', 'instructionSymbol': 'images/speak_gesture1.png', 'action': 'go', 'stimText': '"you"', 'stimVideo': 'videos/you_clip.mp4', 'stimAudio': 'audios/you.wav', 'movement': 'hand_wrist', 'congruency': 'congruent', 'thisN': 13, 'thisTrialN': 13, 'thisRepN': 0}>
+785.3238 	INFO 	Keyboard events cleared
+785.3238 	EXP 	actionCue_Training: autoDraw = False
+785.3238 	EXP 	iti_Training: autoDraw = False
+785.3238 	EXP 	textStart_Training: autoDraw = False
+785.3238 	EXP 	movieGesture_Training: autoDraw = False
+785.3238 	EXP 	instructionImage_Training: autoDraw = False
+785.3238 	EXP 	actionCue_Training: autoDraw = False
+785.3238 	EXP 	textBlockTraining: autoDraw = True
+798.5901 	EXP 	Device response: <KeyPress from None: t=798.5829532999996, value=space, duration=None>
+798.9778 	INFO 	Opening movie file: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\you_clip.mp4
+801.2491 	EXP 	audioStim_Training: sampleRate = 44100
+801.2538 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+801.2634 	EXP 	audioGoCue_Training: sampleRate = 44100
+801.2678 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+801.2709 	DATA 	Keypress: space
+801.2738 	EXP 	Device response: <KeyPress from None: t=798.5829532999996, value=space, duration=0.08998470000005909>
+801.2796 	EXP 	textBlockTraining: autoDraw = False
+801.2796 	EXP 	instructionImage_Training: image = 'images/speak_gesture1.png'
+801.2796 	EXP 	actionCue_Training: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+801.2796 	EXP 	actionCue_Training: borderColor = <psychopy.colors.Color: green, alpha=1.0>
+801.2796 	EXP 	iti_Training: autoDraw = True
+801.2796 	EXP 	iti_Training: autoDraw = False
+801.2796 	EXP 	textStart_Training: autoDraw = True
+801.5734 	INFO 	Movie playback C:\Github\cospeech-gesture\CoSpeech_congruency\videos\you_clip.mp4 started at 0.00 seconds
+801.5907 	EXP 	textStart_Training: autoDraw = False
+801.5907 	EXP 	movieGesture_Training: autoDraw = True
+802.0734 	EXP 	Sound audioStim_Training reached end of file
+802.0900 	EXP 	Playing sound audioStim_Training on speaker SAMSUNG (NVIDIA High Definition Audio)
+803.1351 	EXP 	Sound audioStim_Training reached end of file
+803.1405 	EXP 	Sound audioStim_Training reached end of file
+805.0713 	INFO 	Opening movie file: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\you_clip.mp4
+807.6104 	INFO 	Movie stopped: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\you_clip.mp4
+807.6113 	EXP 	movieGesture_Training: autoDraw = False
+807.6116 	EXP 	Sound audioGoCue_Training reached end of file
+807.6280 	EXP 	Playing sound audioGoCue_Training on speaker SAMSUNG (NVIDIA High Definition Audio)
+807.6234 	EXP 	instructionImage_Training: autoDraw = True
+807.6234 	EXP 	instructionImage_Training: autoDraw = False
+807.6234 	EXP 	actionCue_Training: autoDraw = True
+808.6405 	EXP 	Sound audioGoCue_Training stopped
+810.5741 	EXP 	New trial (rep=0, index=14): <Trial 14 (14 in rep 0) data={'instructionType': 'speech_gesture', 'instructionSymbol': 'images/speak_gesture1.png', 'action': 'nogo', 'stimText': '"falling"', 'stimVideo': 'videos/rising_clip.mp4', 'stimAudio': 'audios/falling.wav', 'movement': 'arm', 'congruency': 'incongruent', 'thisN': 14, 'thisTrialN': 14, 'thisRepN': 0}>
+810.5906 	INFO 	Keyboard events cleared
+810.5906 	EXP 	actionCue_Training: autoDraw = False
+810.5906 	EXP 	iti_Training: autoDraw = False
+810.5906 	EXP 	textStart_Training: autoDraw = False
+810.5906 	EXP 	movieGesture_Training: autoDraw = False
+810.5906 	EXP 	instructionImage_Training: autoDraw = False
+810.5906 	EXP 	actionCue_Training: autoDraw = False
+810.5906 	EXP 	textBlockTraining: autoDraw = True
+820.1245 	DATA 	Mouse: Left button down, pos=(1066,585)
+820.1912 	DATA 	Mouse:  Left button up, pos=(1066,585)
+820.6408 	EXP 	Device response: <KeyPress from None: t=820.6333797999996, value=space, duration=None>
+821.0439 	INFO 	Opening movie file: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\rising_clip.mp4
+823.3301 	EXP 	audioStim_Training: sampleRate = 44100
+823.3339 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+823.3423 	EXP 	audioGoCue_Training: sampleRate = 44100
+823.3466 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+823.3490 	DATA 	Keypress: space
+823.3523 	EXP 	Device response: <KeyPress from None: t=820.6333797999996, value=space, duration=0.07519320000028529>
+823.3553 	EXP 	textBlockTraining: autoDraw = False
+823.3553 	EXP 	instructionImage_Training: image = 'images/speak_gesture1.png'
+823.3553 	EXP 	actionCue_Training: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+823.3553 	EXP 	actionCue_Training: borderColor = <psychopy.colors.Color: red, alpha=1.0>
+823.3553 	EXP 	iti_Training: autoDraw = True
+823.3553 	EXP 	iti_Training: autoDraw = False
+823.3553 	EXP 	textStart_Training: autoDraw = True
+823.6241 	INFO 	Movie playback C:\Github\cospeech-gesture\CoSpeech_congruency\videos\rising_clip.mp4 started at 0.00 seconds
+823.6402 	EXP 	textStart_Training: autoDraw = False
+823.6402 	EXP 	movieGesture_Training: autoDraw = True
+824.1237 	EXP 	Sound audioStim_Training reached end of file
+824.1402 	EXP 	Playing sound audioStim_Training on speaker SAMSUNG (NVIDIA High Definition Audio)
+825.1891 	EXP 	Sound audioStim_Training reached end of file
+825.1909 	EXP 	Sound audioStim_Training reached end of file
+826.8198 	INFO 	Opening movie file: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\rising_clip.mp4
+829.0339 	INFO 	Movie stopped: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\rising_clip.mp4
+829.0352 	EXP 	movieGesture_Training: autoDraw = False
+829.0406 	EXP 	instructionImage_Training: autoDraw = True
+829.1276 	EXP 	Sound audioGoCue_Training reached end of file
+829.1442 	EXP 	Playing sound audioGoCue_Training on speaker SAMSUNG (NVIDIA High Definition Audio)
+829.1443 	EXP 	instructionImage_Training: autoDraw = False
+829.1443 	EXP 	actionCue_Training: autoDraw = True
+830.1520 	EXP 	Sound audioGoCue_Training stopped
+832.6241 	EXP 	New trial (rep=0, index=15): <Trial 15 (15 in rep 0) data={'instructionType': 'gesture', 'instructionSymbol': 'images/hand.png', 'action': 'go', 'stimText': '"me"', 'stimVideo': 'videos/you_clip.mp4', 'stimAudio': 'audios/me.wav', 'movement': 'hand_wrist', 'congruency': 'incongruent', 'thisN': 15, 'thisTrialN': 15, 'thisRepN': 0}>
+832.6407 	INFO 	Keyboard events cleared
+832.6406 	EXP 	actionCue_Training: autoDraw = False
+832.6406 	EXP 	iti_Training: autoDraw = False
+832.6406 	EXP 	textStart_Training: autoDraw = False
+832.6406 	EXP 	movieGesture_Training: autoDraw = False
+832.6406 	EXP 	instructionImage_Training: autoDraw = False
+832.6406 	EXP 	actionCue_Training: autoDraw = False
+832.6406 	EXP 	textBlockTraining: autoDraw = True
+834.6407 	EXP 	Device response: <KeyPress from None: t=834.6294395000004, value=space, duration=None>
+835.0907 	INFO 	Opening movie file: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\you_clip.mp4
+837.4827 	EXP 	audioStim_Training: sampleRate = 44100
+837.4879 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+837.4927 	EXP 	audioGoCue_Training: sampleRate = 44100
+837.4972 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+837.4998 	DATA 	Keypress: space
+837.5026 	EXP 	Device response: <KeyPress from None: t=834.6294395000004, value=space, duration=0.08991419999983918>
+837.5068 	EXP 	textBlockTraining: autoDraw = False
+837.5068 	EXP 	instructionImage_Training: image = 'images/hand.png'
+837.5068 	EXP 	actionCue_Training: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+837.5068 	EXP 	actionCue_Training: borderColor = <psychopy.colors.Color: green, alpha=1.0>
+837.5068 	EXP 	iti_Training: autoDraw = True
+837.5068 	EXP 	iti_Training: autoDraw = False
+837.5068 	EXP 	textStart_Training: autoDraw = True
+837.6261 	INFO 	Movie playback C:\Github\cospeech-gesture\CoSpeech_congruency\videos\you_clip.mp4 started at 0.00 seconds
+837.6460 	EXP 	textStart_Training: autoDraw = False
+837.6460 	EXP 	movieGesture_Training: autoDraw = True
+838.1236 	EXP 	Sound audioStim_Training reached end of file
+838.1401 	EXP 	Playing sound audioStim_Training on speaker SAMSUNG (NVIDIA High Definition Audio)
+839.1601 	EXP 	Sound audioStim_Training reached end of file
+839.1736 	EXP 	Sound audioStim_Training reached end of file
+841.0148 	INFO 	Opening movie file: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\you_clip.mp4
+843.6769 	INFO 	Movie stopped: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\you_clip.mp4
+843.6792 	EXP 	movieGesture_Training: autoDraw = False
+843.6794 	EXP 	Sound audioGoCue_Training reached end of file
+843.6959 	EXP 	Playing sound audioGoCue_Training on speaker SAMSUNG (NVIDIA High Definition Audio)
+843.6903 	EXP 	instructionImage_Training: autoDraw = True
+843.6903 	EXP 	instructionImage_Training: autoDraw = False
+843.6903 	EXP 	actionCue_Training: autoDraw = True
+844.7040 	EXP 	Sound audioGoCue_Training stopped
+846.6242 	EXP 	New trial (rep=0, index=16): <Trial 16 (16 in rep 0) data={'instructionType': 'speech_gesture', 'instructionSymbol': 'images/speak_gesture1.png', 'action': 'go', 'stimText': '"rising"', 'stimVideo': 'videos/falling_clip.mp4', 'stimAudio': 'audios/rising.wav', 'movement': 'arm', 'congruency': 'incongruent', 'thisN': 16, 'thisTrialN': 16, 'thisRepN': 0}>
+846.6408 	INFO 	Keyboard events cleared
+846.6408 	EXP 	actionCue_Training: autoDraw = False
+846.6408 	EXP 	iti_Training: autoDraw = False
+846.6408 	EXP 	textStart_Training: autoDraw = False
+846.6408 	EXP 	movieGesture_Training: autoDraw = False
+846.6408 	EXP 	instructionImage_Training: autoDraw = False
+846.6408 	EXP 	actionCue_Training: autoDraw = False
+846.6408 	EXP 	textBlockTraining: autoDraw = True
+850.4247 	DATA 	Mouse: Left button down, pos=(1534,533)
+850.5079 	DATA 	Mouse:  Left button up, pos=(1534,533)
+851.7575 	EXP 	Device response: <KeyPress from None: t=851.7533837999999, value=space, duration=None>
+852.1322 	INFO 	Opening movie file: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\falling_clip.mp4
+854.3964 	EXP 	audioStim_Training: sampleRate = 44100
+854.4009 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+854.4124 	EXP 	audioGoCue_Training: sampleRate = 44100
+854.4179 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+854.4210 	DATA 	Keypress: space
+854.4211 	DATA 	Keypress: space
+854.4239 	EXP 	Device response: <KeyPress from None: t=851.7533837999999, value=space, duration=0.08214869999937946>
+854.4239 	EXP 	Device response: <KeyPress from None: t=853.9582441000002, value=space, duration=None>
+854.4239 	EXP 	Device response: <KeyPress from None: t=853.9582441000002, value=space, duration=0.08166170000004058>
+854.4273 	EXP 	textBlockTraining: autoDraw = False
+854.4273 	EXP 	instructionImage_Training: image = 'images/speak_gesture1.png'
+854.4273 	EXP 	actionCue_Training: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+854.4273 	EXP 	actionCue_Training: borderColor = <psychopy.colors.Color: green, alpha=1.0>
+854.4273 	EXP 	iti_Training: autoDraw = True
+854.4273 	EXP 	iti_Training: autoDraw = False
+854.4273 	EXP 	textStart_Training: autoDraw = True
+854.7405 	INFO 	Movie playback C:\Github\cospeech-gesture\CoSpeech_congruency\videos\falling_clip.mp4 started at 0.00 seconds
+854.7574 	EXP 	textStart_Training: autoDraw = False
+854.7574 	EXP 	movieGesture_Training: autoDraw = True
+855.2405 	EXP 	Sound audioStim_Training reached end of file
+855.2570 	EXP 	Playing sound audioStim_Training on speaker SAMSUNG (NVIDIA High Definition Audio)
+856.3012 	EXP 	Sound audioStim_Training reached end of file
+856.3072 	EXP 	Sound audioStim_Training reached end of file
+858.2417 	INFO 	Opening movie file: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\falling_clip.mp4
+860.9070 	INFO 	Movie stopped: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\falling_clip.mp4
+860.9100 	EXP 	movieGesture_Training: autoDraw = False
+860.9100 	EXP 	instructionImage_Training: autoDraw = True
+860.9102 	EXP 	Sound audioGoCue_Training reached end of file
+860.9267 	EXP 	Playing sound audioGoCue_Training on speaker SAMSUNG (NVIDIA High Definition Audio)
+860.9269 	EXP 	instructionImage_Training: autoDraw = False
+860.9269 	EXP 	actionCue_Training: autoDraw = True
+861.9433 	EXP 	Sound audioGoCue_Training stopped
+863.7409 	EXP 	New trial (rep=0, index=17): <Trial 17 (17 in rep 0) data={'instructionType': 'speech', 'instructionSymbol': 'images/speak.png', 'action': 'go', 'stimText': '"me"', 'stimVideo': 'videos/you_clip.mp4', 'stimAudio': 'audios/me.wav', 'movement': 'hand_wrist', 'congruency': 'incongruent', 'thisN': 17, 'thisTrialN': 17, 'thisRepN': 0}>
+863.7575 	INFO 	Keyboard events cleared
+863.7575 	EXP 	actionCue_Training: autoDraw = False
+863.7575 	EXP 	iti_Training: autoDraw = False
+863.7575 	EXP 	textStart_Training: autoDraw = False
+863.7575 	EXP 	movieGesture_Training: autoDraw = False
+863.7575 	EXP 	instructionImage_Training: autoDraw = False
+863.7575 	EXP 	actionCue_Training: autoDraw = False
+863.7575 	EXP 	textBlockTraining: autoDraw = True
+875.4415 	DATA 	Mouse: Left button down, pos=(1534,533)
+875.5250 	DATA 	Mouse:  Left button up, pos=(1503,542)
+876.0745 	EXP 	Device response: <KeyPress from None: t=876.0677503999996, value=space, duration=None>
+876.5400 	INFO 	Opening movie file: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\you_clip.mp4
+879.0427 	EXP 	audioStim_Training: sampleRate = 44100
+879.0477 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+879.0526 	EXP 	audioGoCue_Training: sampleRate = 44100
+879.0569 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+879.0595 	DATA 	Keypress: space
+879.0622 	INFO 	Movie playback C:\Github\cospeech-gesture\CoSpeech_congruency\videos\you_clip.mp4 started at 0.00 seconds
+879.0623 	EXP 	Device response: <KeyPress from None: t=876.0677503999996, value=space, duration=0.09025500000097963>
+879.0719 	EXP 	textBlockTraining: autoDraw = False
+879.0719 	EXP 	instructionImage_Training: image = 'images/speak.png'
+879.0719 	EXP 	actionCue_Training: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+879.0719 	EXP 	actionCue_Training: borderColor = <psychopy.colors.Color: green, alpha=1.0>
+879.0719 	EXP 	iti_Training: autoDraw = True
+879.0719 	EXP 	iti_Training: autoDraw = False
+879.0719 	EXP 	textStart_Training: autoDraw = True
+879.0719 	EXP 	textStart_Training: autoDraw = False
+879.0719 	EXP 	movieGesture_Training: autoDraw = True
+879.5572 	EXP 	Sound audioStim_Training reached end of file
+879.5737 	EXP 	Playing sound audioStim_Training on speaker SAMSUNG (NVIDIA High Definition Audio)
+880.5966 	EXP 	Sound audioStim_Training reached end of file
+880.6076 	EXP 	Sound audioStim_Training reached end of file
+882.5602 	INFO 	Opening movie file: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\you_clip.mp4
+884.8391 	INFO 	Movie stopped: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\you_clip.mp4
+884.8404 	EXP 	movieGesture_Training: autoDraw = False
+884.8407 	EXP 	Sound audioGoCue_Training reached end of file
+884.8571 	EXP 	Playing sound audioGoCue_Training on speaker SAMSUNG (NVIDIA High Definition Audio)
+884.8417 	EXP 	instructionImage_Training: autoDraw = True
+884.8417 	EXP 	instructionImage_Training: autoDraw = False
+884.8417 	EXP 	actionCue_Training: autoDraw = True
+885.8596 	EXP 	Sound audioGoCue_Training stopped
+888.0574 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+888.0738 	INFO 	Keyboard events cleared
+888.0738 	EXP 	actionCue_Training: autoDraw = False
+888.0738 	EXP 	iti_Training: autoDraw = False
+888.0738 	EXP 	textStart_Training: autoDraw = False
+888.0738 	EXP 	movieGesture_Training: autoDraw = False
+888.0738 	EXP 	instructionImage_Training: autoDraw = False
+888.0738 	EXP 	actionCue_Training: autoDraw = False
+888.0738 	EXP 	textBlockStart: autoDraw = True
+1184.8926 	DATA 	Mouse: Left button down, pos=(841,391)
+1184.9765 	DATA 	Mouse:  Left button up, pos=(841,391)
+1186.7759 	EXP 	Device response: <KeyPress from None: t=1186.7662715999995, value=space, duration=None>
+1186.7889 	EXP 	Imported current_block_trials.csv as conditions, 77 conditions, 8 params
+1186.7894 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'instructionType': 'gesture', 'instructionSymbol': 'images/hand.png', 'action': 'go', 'stimText': '"me"', 'stimVideo': 'videos/you_clip.mp4', 'stimAudio': 'audios/me.wav', 'movement': 'hand_wrist', 'congruency': 'incongruent', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+1186.7898 	DATA 	Keypress: space
+1186.7904 	INFO 	Opening movie file: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\you_clip.mp4
+1186.9391 	EXP 	audioStimuli: sampleRate = 44100
+1186.9443 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+1186.9487 	EXP 	audioGoCue: sampleRate = 44100
+1186.9532 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+1186.9544 	EXP 	Device response: <KeyPress from None: t=1186.7662715999995, value=space, duration=0.09682080000129645>
+1186.9561 	EXP 	textBlockStart: autoDraw = False
+1186.9561 	EXP 	instructionImage: image = 'images/hand.png'
+1186.9561 	EXP 	actionCue: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+1186.9561 	EXP 	actionCue: borderColor = <psychopy.colors.Color: green, alpha=1.0>
+1186.9561 	EXP 	iti: autoDraw = True
+1188.7752 	EXP 	iti: autoDraw = False
+1188.7752 	EXP 	textStart: autoDraw = True
+1189.7592 	INFO 	Movie playback C:\Github\cospeech-gesture\CoSpeech_congruency\videos\you_clip.mp4 started at 0.00 seconds
+1189.7761 	EXP 	textStart: autoDraw = False
+1189.7761 	EXP 	movieGesture: autoDraw = True
+1190.2594 	EXP 	Sound audioStimuli reached end of file
+1190.2760 	EXP 	Playing sound audioStimuli on speaker SAMSUNG (NVIDIA High Definition Audio)
+1191.2995 	EXP 	Sound audioStimuli reached end of file
+1191.3092 	EXP 	Sound audioStimuli reached end of file
+1192.7538 	INFO 	Opening movie file: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\you_clip.mp4
+1192.8815 	INFO 	Movie stopped: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\you_clip.mp4
+1192.8825 	EXP 	movieGesture: autoDraw = False
+1192.8920 	EXP 	instructionImage: autoDraw = True
+1195.2592 	EXP 	Sound audioGoCue reached end of file
+1195.2757 	EXP 	Playing sound audioGoCue on speaker SAMSUNG (NVIDIA High Definition Audio)
+1195.2758 	EXP 	instructionImage: autoDraw = False
+1195.2758 	EXP 	actionCue: autoDraw = True
+1196.2759 	EXP 	Sound audioGoCue stopped
+1198.7696 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'instructionType': 'speech', 'instructionSymbol': 'images/speak.png', 'action': 'go', 'stimText': '"falling"', 'stimVideo': 'videos/rising_clip.mp4', 'stimAudio': 'audios/falling.wav', 'movement': 'arm', 'congruency': 'incongruent', 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+1198.7833 	INFO 	Opening movie file: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\rising_clip.mp4
+1198.9436 	EXP 	audioStimuli: sampleRate = 44100
+1198.9479 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+1198.9509 	EXP 	audioGoCue: sampleRate = 44100
+1198.9552 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+1198.9573 	EXP 	actionCue: autoDraw = False
+1198.9573 	EXP 	iti: autoDraw = False
+1198.9573 	EXP 	textStart: autoDraw = False
+1198.9573 	EXP 	movieGesture: autoDraw = False
+1198.9573 	EXP 	instructionImage: autoDraw = False
+1198.9573 	EXP 	actionCue: autoDraw = False
+1198.9573 	EXP 	instructionImage: image = 'images/speak.png'
+1198.9573 	EXP 	actionCue: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+1198.9573 	EXP 	actionCue: borderColor = <psychopy.colors.Color: green, alpha=1.0>
+1198.9573 	EXP 	iti: autoDraw = True
+1200.7758 	EXP 	iti: autoDraw = False
+1200.7758 	EXP 	textStart: autoDraw = True
+1201.7592 	INFO 	Movie playback C:\Github\cospeech-gesture\CoSpeech_congruency\videos\rising_clip.mp4 started at 0.00 seconds
+1201.7760 	EXP 	textStart: autoDraw = False
+1201.7760 	EXP 	movieGesture: autoDraw = True
+1202.2588 	EXP 	Sound audioStimuli reached end of file
+1202.2754 	EXP 	Playing sound audioStimuli on speaker SAMSUNG (NVIDIA High Definition Audio)
+1203.3232 	EXP 	Sound audioStimuli reached end of file
+1203.3255 	EXP 	Sound audioStimuli reached end of file
+1204.4976 	INFO 	Opening movie file: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\rising_clip.mp4
+1204.6833 	INFO 	Movie stopped: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\rising_clip.mp4
+1204.6848 	EXP 	movieGesture: autoDraw = False
+1204.7758 	EXP 	instructionImage: autoDraw = True
+1207.2593 	EXP 	Sound audioGoCue reached end of file
+1207.2759 	EXP 	Playing sound audioGoCue on speaker SAMSUNG (NVIDIA High Definition Audio)
+1207.2759 	EXP 	instructionImage: autoDraw = False
+1207.2759 	EXP 	actionCue: autoDraw = True
+1208.2717 	EXP 	Sound audioGoCue stopped
+1210.7698 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'instructionType': 'speech', 'instructionSymbol': 'images/speak.png', 'action': 'go', 'stimText': '"you"', 'stimVideo': 'videos/you_clip.mp4', 'stimAudio': 'audios/you.wav', 'movement': 'hand_wrist', 'congruency': 'congruent', 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+1210.7861 	INFO 	Opening movie file: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\you_clip.mp4
+1210.9237 	EXP 	audioStimuli: sampleRate = 44100
+1210.9277 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+1210.9309 	EXP 	audioGoCue: sampleRate = 44100
+1210.9355 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+1210.9376 	EXP 	actionCue: autoDraw = False
+1210.9376 	EXP 	iti: autoDraw = False
+1210.9376 	EXP 	textStart: autoDraw = False
+1210.9376 	EXP 	movieGesture: autoDraw = False
+1210.9376 	EXP 	instructionImage: autoDraw = False
+1210.9376 	EXP 	actionCue: autoDraw = False
+1210.9376 	EXP 	instructionImage: image = 'images/speak.png'
+1210.9376 	EXP 	actionCue: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+1210.9376 	EXP 	actionCue: borderColor = <psychopy.colors.Color: green, alpha=1.0>
+1210.9376 	EXP 	iti: autoDraw = True
+1212.7759 	EXP 	iti: autoDraw = False
+1212.7759 	EXP 	textStart: autoDraw = True
+1213.7593 	INFO 	Movie playback C:\Github\cospeech-gesture\CoSpeech_congruency\videos\you_clip.mp4 started at 0.00 seconds
+1213.7757 	EXP 	textStart: autoDraw = False
+1213.7757 	EXP 	movieGesture: autoDraw = True
+1214.2594 	EXP 	Sound audioStimuli reached end of file
+1214.2759 	EXP 	Playing sound audioStimuli on speaker SAMSUNG (NVIDIA High Definition Audio)
+1215.3207 	EXP 	Sound audioStimuli reached end of file
+1215.3259 	EXP 	Sound audioStimuli reached end of file
+1216.7627 	INFO 	Opening movie file: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\you_clip.mp4
+1216.8885 	INFO 	Movie stopped: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\you_clip.mp4
+1216.8896 	EXP 	movieGesture: autoDraw = False
+1216.8921 	EXP 	instructionImage: autoDraw = True
+1219.2593 	EXP 	Sound audioGoCue reached end of file
+1219.2759 	EXP 	Playing sound audioGoCue on speaker SAMSUNG (NVIDIA High Definition Audio)
+1219.2754 	EXP 	instructionImage: autoDraw = False
+1219.2754 	EXP 	actionCue: autoDraw = True
+1220.2761 	EXP 	Sound audioGoCue stopped
+1222.7697 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'instructionType': 'speech_gesture', 'instructionSymbol': 'images/speak_gesture1.png', 'action': 'go', 'stimText': '"rising"', 'stimVideo': 'videos/rising_clip.mp4', 'stimAudio': 'audios/rising.wav', 'movement': 'arm', 'congruency': 'congruent', 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+1222.7914 	INFO 	Opening movie file: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\rising_clip.mp4
+1223.0404 	EXP 	audioStimuli: sampleRate = 44100
+1223.0446 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+1223.0557 	EXP 	audioGoCue: sampleRate = 44100
+1223.0599 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+1223.0638 	EXP 	actionCue: autoDraw = False
+1223.0638 	EXP 	iti: autoDraw = False
+1223.0638 	EXP 	textStart: autoDraw = False
+1223.0638 	EXP 	movieGesture: autoDraw = False
+1223.0638 	EXP 	instructionImage: autoDraw = False
+1223.0638 	EXP 	actionCue: autoDraw = False
+1223.0638 	EXP 	instructionImage: image = 'images/speak_gesture1.png'
+1223.0638 	EXP 	actionCue: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+1223.0638 	EXP 	actionCue: borderColor = <psychopy.colors.Color: green, alpha=1.0>
+1223.0638 	EXP 	iti: autoDraw = True
+1224.7759 	EXP 	iti: autoDraw = False
+1224.7759 	EXP 	textStart: autoDraw = True
+1225.7594 	INFO 	Movie playback C:\Github\cospeech-gesture\CoSpeech_congruency\videos\rising_clip.mp4 started at 0.00 seconds
+1225.7757 	EXP 	textStart: autoDraw = False
+1225.7757 	EXP 	movieGesture: autoDraw = True
+1226.2589 	EXP 	Sound audioStimuli reached end of file
+1226.2755 	EXP 	Playing sound audioStimuli on speaker SAMSUNG (NVIDIA High Definition Audio)
+1227.3210 	EXP 	Sound audioStimuli reached end of file
+1227.3261 	EXP 	Sound audioStimuli reached end of file
+1228.4908 	INFO 	Opening movie file: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\rising_clip.mp4
+1228.6582 	INFO 	Movie stopped: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\rising_clip.mp4
+1228.6601 	EXP 	movieGesture: autoDraw = False
+1228.7760 	EXP 	instructionImage: autoDraw = True
+1231.2594 	EXP 	Sound audioGoCue reached end of file
+1231.2760 	EXP 	Playing sound audioGoCue on speaker SAMSUNG (NVIDIA High Definition Audio)
+1231.2760 	EXP 	instructionImage: autoDraw = False
+1231.2760 	EXP 	actionCue: autoDraw = True
+1232.2736 	EXP 	Sound audioGoCue stopped
+1234.7700 	EXP 	New trial (rep=0, index=4): <Trial 4 (4 in rep 0) data={'instructionType': 'gesture', 'instructionSymbol': 'images/hand.png', 'action': 'nogo', 'stimText': '"you"', 'stimVideo': 'videos/you_clip.mp4', 'stimAudio': 'audios/you.wav', 'movement': 'hand_wrist', 'congruency': 'congruent', 'thisN': 4, 'thisTrialN': 4, 'thisRepN': 0}>
+1234.7921 	INFO 	Opening movie file: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\you_clip.mp4
+1234.9291 	EXP 	audioStimuli: sampleRate = 44100
+1234.9332 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+1234.9374 	EXP 	audioGoCue: sampleRate = 44100
+1234.9416 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+1234.9438 	EXP 	actionCue: autoDraw = False
+1234.9438 	EXP 	iti: autoDraw = False
+1234.9438 	EXP 	textStart: autoDraw = False
+1234.9438 	EXP 	movieGesture: autoDraw = False
+1234.9438 	EXP 	instructionImage: autoDraw = False
+1234.9438 	EXP 	actionCue: autoDraw = False
+1234.9438 	EXP 	instructionImage: image = 'images/hand.png'
+1234.9438 	EXP 	actionCue: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+1234.9438 	EXP 	actionCue: borderColor = <psychopy.colors.Color: red, alpha=1.0>
+1234.9438 	EXP 	iti: autoDraw = True
+1236.7760 	EXP 	iti: autoDraw = False
+1236.7760 	EXP 	textStart: autoDraw = True
+1237.7589 	INFO 	Movie playback C:\Github\cospeech-gesture\CoSpeech_congruency\videos\you_clip.mp4 started at 0.00 seconds
+1237.7763 	EXP 	textStart: autoDraw = False
+1237.7763 	EXP 	movieGesture: autoDraw = True
+1238.2589 	EXP 	Sound audioStimuli reached end of file
+1238.2755 	EXP 	Playing sound audioStimuli on speaker SAMSUNG (NVIDIA High Definition Audio)
+1239.3223 	EXP 	Sound audioStimuli reached end of file
+1239.3260 	EXP 	Sound audioStimuli reached end of file
+1240.7559 	INFO 	Opening movie file: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\you_clip.mp4
+1240.8853 	INFO 	Movie stopped: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\you_clip.mp4
+1240.8866 	EXP 	movieGesture: autoDraw = False
+1240.8922 	EXP 	instructionImage: autoDraw = True
+1243.2595 	EXP 	Sound audioGoCue reached end of file
+1243.2760 	EXP 	Playing sound audioGoCue on speaker SAMSUNG (NVIDIA High Definition Audio)
+1243.2761 	EXP 	instructionImage: autoDraw = False
+1243.2761 	EXP 	actionCue: autoDraw = True
+1244.2737 	EXP 	Sound audioGoCue stopped
+1246.7698 	EXP 	New trial (rep=0, index=5): <Trial 5 (5 in rep 0) data={'instructionType': 'gesture', 'instructionSymbol': 'images/hand.png', 'action': 'go', 'stimText': '"you"', 'stimVideo': 'videos/you_clip.mp4', 'stimAudio': 'audios/you.wav', 'movement': 'hand_wrist', 'congruency': 'congruent', 'thisN': 5, 'thisTrialN': 5, 'thisRepN': 0}>
+1246.7912 	INFO 	Opening movie file: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\you_clip.mp4
+1246.9289 	EXP 	audioStimuli: sampleRate = 44100
+1246.9332 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+1246.9365 	EXP 	audioGoCue: sampleRate = 44100
+1246.9409 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+1246.9430 	EXP 	actionCue: autoDraw = False
+1246.9430 	EXP 	iti: autoDraw = False
+1246.9430 	EXP 	textStart: autoDraw = False
+1246.9430 	EXP 	movieGesture: autoDraw = False
+1246.9430 	EXP 	instructionImage: autoDraw = False
+1246.9430 	EXP 	actionCue: autoDraw = False
+1246.9430 	EXP 	instructionImage: image = 'images/hand.png'
+1246.9430 	EXP 	actionCue: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+1246.9430 	EXP 	actionCue: borderColor = <psychopy.colors.Color: green, alpha=1.0>
+1246.9430 	EXP 	iti: autoDraw = True
+1248.7762 	EXP 	iti: autoDraw = False
+1248.7762 	EXP 	textStart: autoDraw = True
+1249.7597 	INFO 	Movie playback C:\Github\cospeech-gesture\CoSpeech_congruency\videos\you_clip.mp4 started at 0.00 seconds
+1249.7764 	EXP 	textStart: autoDraw = False
+1249.7764 	EXP 	movieGesture: autoDraw = True
+1250.2595 	EXP 	Sound audioStimuli reached end of file
+1250.2761 	EXP 	Playing sound audioStimuli on speaker SAMSUNG (NVIDIA High Definition Audio)
+1251.3206 	EXP 	Sound audioStimuli reached end of file
+1251.3261 	EXP 	Sound audioStimuli reached end of file
+1252.7636 	INFO 	Opening movie file: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\you_clip.mp4
+1252.9312 	INFO 	Movie stopped: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\you_clip.mp4
+1252.9321 	EXP 	movieGesture: autoDraw = False
+1252.9422 	EXP 	instructionImage: autoDraw = True
+1255.2595 	EXP 	Sound audioGoCue reached end of file
+1255.2761 	EXP 	Playing sound audioGoCue on speaker SAMSUNG (NVIDIA High Definition Audio)
+1255.2761 	EXP 	instructionImage: autoDraw = False
+1255.2761 	EXP 	actionCue: autoDraw = True
+1256.2750 	EXP 	Sound audioGoCue stopped
+1258.7699 	EXP 	New trial (rep=0, index=6): <Trial 6 (6 in rep 0) data={'instructionType': 'speech', 'instructionSymbol': 'images/speak.png', 'action': 'go', 'stimText': '"you"', 'stimVideo': 'videos/me_clip.mp4', 'stimAudio': 'audios/you.wav', 'movement': 'hand_wrist', 'congruency': 'incongruent', 'thisN': 6, 'thisTrialN': 6, 'thisRepN': 0}>
+1258.7814 	INFO 	Opening movie file: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\me_clip.mp4
+1258.9157 	EXP 	audioStimuli: sampleRate = 44100
+1258.9194 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+1258.9227 	EXP 	audioGoCue: sampleRate = 44100
+1258.9274 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+1258.9300 	EXP 	actionCue: autoDraw = False
+1258.9300 	EXP 	iti: autoDraw = False
+1258.9300 	EXP 	textStart: autoDraw = False
+1258.9300 	EXP 	movieGesture: autoDraw = False
+1258.9300 	EXP 	instructionImage: autoDraw = False
+1258.9300 	EXP 	actionCue: autoDraw = False
+1258.9300 	EXP 	instructionImage: image = 'images/speak.png'
+1258.9300 	EXP 	actionCue: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+1258.9300 	EXP 	actionCue: borderColor = <psychopy.colors.Color: green, alpha=1.0>
+1258.9300 	EXP 	iti: autoDraw = True
+1260.7761 	EXP 	iti: autoDraw = False
+1260.7761 	EXP 	textStart: autoDraw = True
+1261.7596 	INFO 	Movie playback C:\Github\cospeech-gesture\CoSpeech_congruency\videos\me_clip.mp4 started at 0.00 seconds
+1261.7762 	EXP 	textStart: autoDraw = False
+1261.7762 	EXP 	movieGesture: autoDraw = True
+1262.2590 	EXP 	Sound audioStimuli reached end of file
+1262.2756 	EXP 	Playing sound audioStimuli on speaker SAMSUNG (NVIDIA High Definition Audio)
+1263.3211 	EXP 	Sound audioStimuli reached end of file
+1263.3262 	EXP 	Sound audioStimuli reached end of file
+1264.7787 	INFO 	Opening movie file: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\me_clip.mp4
+1267.8752 	INFO 	Movie stopped: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\me_clip.mp4
+1267.8768 	EXP 	movieGesture: autoDraw = False
+1267.8768 	EXP 	instructionImage: autoDraw = True
+1267.8770 	EXP 	Sound audioGoCue reached end of file
+1267.8935 	EXP 	Playing sound audioGoCue on speaker SAMSUNG (NVIDIA High Definition Audio)
+1267.8925 	EXP 	instructionImage: autoDraw = False
+1267.8925 	EXP 	actionCue: autoDraw = True
+1268.8946 	EXP 	Sound audioGoCue stopped
+1270.7705 	EXP 	New trial (rep=0, index=7): <Trial 7 (7 in rep 0) data={'instructionType': 'speech', 'instructionSymbol': 'images/speak.png', 'action': 'go', 'stimText': '"falling"', 'stimVideo': 'videos/falling_clip.mp4', 'stimAudio': 'audios/falling.wav', 'movement': 'arm', 'congruency': 'congruent', 'thisN': 7, 'thisTrialN': 7, 'thisRepN': 0}>
+1270.7935 	INFO 	Opening movie file: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\falling_clip.mp4
+1270.9215 	EXP 	audioStimuli: sampleRate = 44100
+1270.9256 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+1270.9289 	EXP 	audioGoCue: sampleRate = 44100
+1270.9331 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+1270.9354 	EXP 	actionCue: autoDraw = False
+1270.9354 	EXP 	iti: autoDraw = False
+1270.9354 	EXP 	textStart: autoDraw = False
+1270.9354 	EXP 	movieGesture: autoDraw = False
+1270.9354 	EXP 	instructionImage: autoDraw = False
+1270.9354 	EXP 	actionCue: autoDraw = False
+1270.9354 	EXP 	instructionImage: image = 'images/speak.png'
+1270.9354 	EXP 	actionCue: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+1270.9354 	EXP 	actionCue: borderColor = <psychopy.colors.Color: green, alpha=1.0>
+1270.9354 	EXP 	iti: autoDraw = True
+1272.7762 	EXP 	iti: autoDraw = False
+1272.7762 	EXP 	textStart: autoDraw = True
+1273.7597 	INFO 	Movie playback C:\Github\cospeech-gesture\CoSpeech_congruency\videos\falling_clip.mp4 started at 0.00 seconds
+1273.7765 	EXP 	textStart: autoDraw = False
+1273.7765 	EXP 	movieGesture: autoDraw = True
+1274.2596 	EXP 	Sound audioStimuli reached end of file
+1274.2762 	EXP 	Playing sound audioStimuli on speaker SAMSUNG (NVIDIA High Definition Audio)
+1275.3255 	EXP 	Sound audioStimuli reached end of file
+1275.3272 	EXP 	Sound audioStimuli reached end of file
+1276.7810 	INFO 	Opening movie file: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\falling_clip.mp4
+1276.9060 	INFO 	Movie stopped: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\falling_clip.mp4
+1276.9073 	EXP 	movieGesture: autoDraw = False
+1276.9073 	EXP 	instructionImage: autoDraw = True
+1279.2597 	EXP 	Sound audioGoCue reached end of file
+1279.2762 	EXP 	Playing sound audioGoCue on speaker SAMSUNG (NVIDIA High Definition Audio)
+1279.2757 	EXP 	instructionImage: autoDraw = False
+1279.2757 	EXP 	actionCue: autoDraw = True
+1280.2725 	EXP 	Sound audioGoCue stopped
+1282.7702 	EXP 	New trial (rep=0, index=8): <Trial 8 (8 in rep 0) data={'instructionType': 'speech_gesture', 'instructionSymbol': 'images/speak_gesture1.png', 'action': 'go', 'stimText': '"rising"', 'stimVideo': 'videos/falling_clip.mp4', 'stimAudio': 'audios/rising.wav', 'movement': 'arm', 'congruency': 'incongruent', 'thisN': 8, 'thisTrialN': 8, 'thisRepN': 0}>
+1282.7841 	INFO 	Opening movie file: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\falling_clip.mp4
+1282.9120 	EXP 	audioStimuli: sampleRate = 44100
+1282.9162 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+1282.9268 	EXP 	audioGoCue: sampleRate = 44100
+1282.9313 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+1282.9338 	EXP 	actionCue: autoDraw = False
+1282.9338 	EXP 	iti: autoDraw = False
+1282.9338 	EXP 	textStart: autoDraw = False
+1282.9338 	EXP 	movieGesture: autoDraw = False
+1282.9338 	EXP 	instructionImage: autoDraw = False
+1282.9338 	EXP 	actionCue: autoDraw = False
+1282.9338 	EXP 	instructionImage: image = 'images/speak_gesture1.png'
+1282.9338 	EXP 	actionCue: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+1282.9338 	EXP 	actionCue: borderColor = <psychopy.colors.Color: green, alpha=1.0>
+1282.9338 	EXP 	iti: autoDraw = True
+1284.7765 	EXP 	iti: autoDraw = False
+1284.7765 	EXP 	textStart: autoDraw = True
+1285.7597 	INFO 	Movie playback C:\Github\cospeech-gesture\CoSpeech_congruency\videos\falling_clip.mp4 started at 0.00 seconds
+1285.7767 	EXP 	textStart: autoDraw = False
+1285.7767 	EXP 	movieGesture: autoDraw = True
+1286.2598 	EXP 	Sound audioStimuli reached end of file
+1286.2764 	EXP 	Playing sound audioStimuli on speaker SAMSUNG (NVIDIA High Definition Audio)
+1287.3209 	EXP 	Sound audioStimuli reached end of file
+1287.3264 	EXP 	Sound audioStimuli reached end of file
+1288.7741 	INFO 	Opening movie file: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\falling_clip.mp4
+1288.8878 	INFO 	Movie stopped: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\falling_clip.mp4
+1288.8897 	EXP 	movieGesture: autoDraw = False
+1288.8897 	EXP 	instructionImage: autoDraw = True
+1291.2598 	EXP 	Sound audioGoCue reached end of file
+1291.2763 	EXP 	Playing sound audioGoCue on speaker SAMSUNG (NVIDIA High Definition Audio)
+1291.2765 	EXP 	instructionImage: autoDraw = False
+1291.2765 	EXP 	actionCue: autoDraw = True
+1292.2757 	EXP 	Sound audioGoCue stopped
+1294.7701 	EXP 	New trial (rep=0, index=9): <Trial 9 (9 in rep 0) data={'instructionType': 'speech', 'instructionSymbol': 'images/speak.png', 'action': 'go', 'stimText': '"you"', 'stimVideo': 'videos/me_clip.mp4', 'stimAudio': 'audios/you.wav', 'movement': 'hand_wrist', 'congruency': 'incongruent', 'thisN': 9, 'thisTrialN': 9, 'thisRepN': 0}>
+1294.7890 	INFO 	Opening movie file: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\me_clip.mp4
+1294.9731 	EXP 	audioStimuli: sampleRate = 44100
+1294.9777 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+1294.9818 	EXP 	audioGoCue: sampleRate = 44100
+1294.9864 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+1294.9885 	EXP 	actionCue: autoDraw = False
+1294.9885 	EXP 	iti: autoDraw = False
+1294.9885 	EXP 	textStart: autoDraw = False
+1294.9885 	EXP 	movieGesture: autoDraw = False
+1294.9885 	EXP 	instructionImage: autoDraw = False
+1294.9885 	EXP 	actionCue: autoDraw = False
+1294.9885 	EXP 	instructionImage: image = 'images/speak.png'
+1294.9885 	EXP 	actionCue: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+1294.9885 	EXP 	actionCue: borderColor = <psychopy.colors.Color: green, alpha=1.0>
+1294.9885 	EXP 	iti: autoDraw = True
+1296.7771 	EXP 	iti: autoDraw = False
+1296.7771 	EXP 	textStart: autoDraw = True
+1297.7599 	INFO 	Movie playback C:\Github\cospeech-gesture\CoSpeech_congruency\videos\me_clip.mp4 started at 0.00 seconds
+1297.7766 	EXP 	textStart: autoDraw = False
+1297.7766 	EXP 	movieGesture: autoDraw = True
+1298.2593 	EXP 	Sound audioStimuli reached end of file
+1298.2759 	EXP 	Playing sound audioStimuli on speaker SAMSUNG (NVIDIA High Definition Audio)
+1299.3222 	EXP 	Sound audioStimuli reached end of file
+1299.3264 	EXP 	Sound audioStimuli reached end of file
+1300.7770 	INFO 	Opening movie file: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\me_clip.mp4
+1305.5877 	INFO 	Movie stopped: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\me_clip.mp4
+1305.5929 	EXP 	movieGesture: autoDraw = False
+1305.5929 	EXP 	instructionImage: autoDraw = True
+1305.5931 	EXP 	Sound audioGoCue reached end of file
+1305.6096 	EXP 	Playing sound audioGoCue on speaker SAMSUNG (NVIDIA High Definition Audio)
+1305.6089 	EXP 	instructionImage: autoDraw = False
+1305.6089 	EXP 	actionCue: autoDraw = True
+1306.6125 	EXP 	Sound audioGoCue stopped
+1306.7703 	EXP 	New trial (rep=0, index=10): <Trial 10 (10 in rep 0) data={'instructionType': 'gesture', 'instructionSymbol': 'images/hand.png', 'action': 'go', 'stimText': '"me"', 'stimVideo': 'videos/me_clip.mp4', 'stimAudio': 'audios/me.wav', 'movement': 'hand_wrist', 'congruency': 'congruent', 'thisN': 10, 'thisTrialN': 10, 'thisRepN': 0}>
+1306.7840 	INFO 	Opening movie file: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\me_clip.mp4
+1306.9244 	EXP 	audioStimuli: sampleRate = 44100
+1306.9288 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+1306.9320 	EXP 	audioGoCue: sampleRate = 44100
+1306.9364 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+1306.9384 	EXP 	actionCue: autoDraw = False
+1306.9384 	EXP 	iti: autoDraw = False
+1306.9384 	EXP 	textStart: autoDraw = False
+1306.9384 	EXP 	movieGesture: autoDraw = False
+1306.9384 	EXP 	instructionImage: autoDraw = False
+1306.9384 	EXP 	actionCue: autoDraw = False
+1306.9384 	EXP 	instructionImage: image = 'images/hand.png'
+1306.9384 	EXP 	actionCue: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+1306.9384 	EXP 	actionCue: borderColor = <psychopy.colors.Color: green, alpha=1.0>
+1306.9384 	EXP 	iti: autoDraw = True
+1308.7764 	EXP 	iti: autoDraw = False
+1308.7764 	EXP 	textStart: autoDraw = True
+1309.7597 	INFO 	Movie playback C:\Github\cospeech-gesture\CoSpeech_congruency\videos\me_clip.mp4 started at 0.00 seconds
+1309.7767 	EXP 	textStart: autoDraw = False
+1309.7767 	EXP 	movieGesture: autoDraw = True
+1310.2600 	EXP 	Sound audioStimuli reached end of file
+1310.2766 	EXP 	Playing sound audioStimuli on speaker SAMSUNG (NVIDIA High Definition Audio)
+1311.3000 	EXP 	Sound audioStimuli reached end of file
+1311.3100 	EXP 	Sound audioStimuli reached end of file
+1312.7766 	INFO 	Opening movie file: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\me_clip.mp4
+1312.9104 	INFO 	Movie stopped: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\me_clip.mp4
+1312.9118 	EXP 	movieGesture: autoDraw = False
+1312.9118 	EXP 	instructionImage: autoDraw = True
+1315.2598 	EXP 	Sound audioGoCue reached end of file
+1315.2764 	EXP 	Playing sound audioGoCue on speaker SAMSUNG (NVIDIA High Definition Audio)
+1315.2764 	EXP 	instructionImage: autoDraw = False
+1315.2764 	EXP 	actionCue: autoDraw = True
+1316.2753 	EXP 	Sound audioGoCue stopped
+1318.7698 	EXP 	New trial (rep=0, index=11): <Trial 11 (11 in rep 0) data={'instructionType': 'speech_gesture', 'instructionSymbol': 'images/speak_gesture1.png', 'action': 'go', 'stimText': '"falling"', 'stimVideo': 'videos/rising_clip.mp4', 'stimAudio': 'audios/falling.wav', 'movement': 'arm', 'congruency': 'incongruent', 'thisN': 11, 'thisTrialN': 11, 'thisRepN': 0}>
+1318.7873 	INFO 	Opening movie file: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\rising_clip.mp4
+1318.9589 	EXP 	audioStimuli: sampleRate = 44100
+1318.9627 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+1318.9731 	EXP 	audioGoCue: sampleRate = 44100
+1318.9774 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+1318.9799 	EXP 	actionCue: autoDraw = False
+1318.9799 	EXP 	iti: autoDraw = False
+1318.9799 	EXP 	textStart: autoDraw = False
+1318.9799 	EXP 	movieGesture: autoDraw = False
+1318.9799 	EXP 	instructionImage: autoDraw = False
+1318.9799 	EXP 	actionCue: autoDraw = False
+1318.9799 	EXP 	instructionImage: image = 'images/speak_gesture1.png'
+1318.9799 	EXP 	actionCue: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+1318.9799 	EXP 	actionCue: borderColor = <psychopy.colors.Color: green, alpha=1.0>
+1318.9799 	EXP 	iti: autoDraw = True
+1320.7764 	EXP 	iti: autoDraw = False
+1320.7764 	EXP 	textStart: autoDraw = True
+1321.7599 	INFO 	Movie playback C:\Github\cospeech-gesture\CoSpeech_congruency\videos\rising_clip.mp4 started at 0.00 seconds
+1321.7766 	EXP 	textStart: autoDraw = False
+1321.7766 	EXP 	movieGesture: autoDraw = True
+1322.2594 	EXP 	Sound audioStimuli reached end of file
+1322.2760 	EXP 	Playing sound audioStimuli on speaker SAMSUNG (NVIDIA High Definition Audio)
+1323.3201 	EXP 	Sound audioStimuli reached end of file
+1323.3263 	EXP 	Sound audioStimuli reached end of file
+1324.4972 	INFO 	Opening movie file: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\rising_clip.mp4
+1324.7364 	INFO 	Movie stopped: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\rising_clip.mp4
+1324.7379 	EXP 	movieGesture: autoDraw = False
+1324.7759 	EXP 	instructionImage: autoDraw = True
+1327.2598 	EXP 	Sound audioGoCue reached end of file
+1327.2764 	EXP 	Playing sound audioGoCue on speaker SAMSUNG (NVIDIA High Definition Audio)
+1327.2764 	EXP 	instructionImage: autoDraw = False
+1327.2764 	EXP 	actionCue: autoDraw = True
+1328.2722 	EXP 	Sound audioGoCue stopped
+1330.7700 	EXP 	New trial (rep=0, index=12): <Trial 12 (12 in rep 0) data={'instructionType': 'speech_gesture', 'instructionSymbol': 'images/speak_gesture1.png', 'action': 'nogo', 'stimText': '"rising"', 'stimVideo': 'videos/falling_clip.mp4', 'stimAudio': 'audios/rising.wav', 'movement': 'arm', 'congruency': 'incongruent', 'thisN': 12, 'thisTrialN': 12, 'thisRepN': 0}>
+1330.7905 	INFO 	Opening movie file: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\falling_clip.mp4
+1330.9384 	EXP 	audioStimuli: sampleRate = 44100
+1330.9427 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+1330.9516 	EXP 	audioGoCue: sampleRate = 44100
+1330.9559 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+1330.9582 	EXP 	actionCue: autoDraw = False
+1330.9582 	EXP 	iti: autoDraw = False
+1330.9582 	EXP 	textStart: autoDraw = False
+1330.9582 	EXP 	movieGesture: autoDraw = False
+1330.9582 	EXP 	instructionImage: autoDraw = False
+1330.9582 	EXP 	actionCue: autoDraw = False
+1330.9582 	EXP 	instructionImage: image = 'images/speak_gesture1.png'
+1330.9582 	EXP 	actionCue: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+1330.9582 	EXP 	actionCue: borderColor = <psychopy.colors.Color: red, alpha=1.0>
+1330.9582 	EXP 	iti: autoDraw = True
+1332.7765 	EXP 	iti: autoDraw = False
+1332.7765 	EXP 	textStart: autoDraw = True
+1333.7599 	INFO 	Movie playback C:\Github\cospeech-gesture\CoSpeech_congruency\videos\falling_clip.mp4 started at 0.00 seconds
+1333.7762 	EXP 	textStart: autoDraw = False
+1333.7762 	EXP 	movieGesture: autoDraw = True
+1334.2600 	EXP 	Sound audioStimuli reached end of file
+1334.2766 	EXP 	Playing sound audioStimuli on speaker SAMSUNG (NVIDIA High Definition Audio)
+1335.3199 	EXP 	Sound audioStimuli reached end of file
+1335.3267 	EXP 	Sound audioStimuli reached end of file
+1336.7914 	INFO 	Opening movie file: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\falling_clip.mp4
+1339.5490 	INFO 	Movie stopped: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\falling_clip.mp4
+1339.5506 	EXP 	movieGesture: autoDraw = False
+1339.5506 	EXP 	instructionImage: autoDraw = True
+1339.5508 	EXP 	Sound audioGoCue reached end of file
+1339.5673 	EXP 	Playing sound audioGoCue on speaker SAMSUNG (NVIDIA High Definition Audio)
+1339.5594 	EXP 	instructionImage: autoDraw = False
+1339.5594 	EXP 	actionCue: autoDraw = True
+1340.5745 	EXP 	Sound audioGoCue stopped
+1342.7702 	EXP 	New trial (rep=0, index=13): <Trial 13 (13 in rep 0) data={'instructionType': 'speech', 'instructionSymbol': 'images/speak.png', 'action': 'go', 'stimText': '"rising"', 'stimVideo': 'videos/rising_clip.mp4', 'stimAudio': 'audios/rising.wav', 'movement': 'arm', 'congruency': 'congruent', 'thisN': 13, 'thisTrialN': 13, 'thisRepN': 0}>
+1342.7849 	INFO 	Opening movie file: C:\Github\cospeech-gesture\CoSpeech_congruency\videos\rising_clip.mp4
+1349.7797 	INFO 	saved data to C:\Github\cospeech-gesture\CoSpeech_congruency\data\BCI02_exp_cospeech_congruency_2025-12-12_12h42.57.795.psydat
+1349.7839 	INFO 	saved data to 'C:\\Github\\cospeech-gesture\\CoSpeech_congruency\\data\\BCI02_exp_cospeech_congruency_2025-12-12_12h42.57.795.csv'
+1349.7851 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+1349.8386 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+1349.8386 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+1349.8386 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+1349.8386 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+1349.8386 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+1349.8387 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+1349.8387 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+1349.8387 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
