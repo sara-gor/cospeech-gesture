@@ -17,7 +17,7 @@ from psychopy import prefs
 from psychopy import plugins
 plugins.activatePlugins()
 prefs.hardware['audioLib'] = 'ptb'
-from psychopy import sound, gui, visual, core, data, event, logging, clock, colors, layout, hardware, parallel
+from psychopy import sound, gui, visual, core, data, event, logging, clock, colors, layout, hardware
 from psychopy.tools import environmenttools
 from psychopy.constants import (
     NOT_STARTED, STARTED, PLAYING, PAUSED, STOPPED, STOPPING, FINISHED, PRESSED, 
@@ -33,7 +33,7 @@ import sys  # to get file system encoding
 
 from psychopy.hardware import keyboard
 import serial
-import nidaqmx
+#import nidaqmx
 
 # --- Setup global variables (available in all functions) ---
 # create a device manager to handle hardware (keyboards, mice, mirophones, speakers, etc.)
@@ -61,14 +61,14 @@ expInfo = {
       
 ## Specify output port for trigger
 ## Change channel if needed
-trigger_task = nidaqmx.Task()
-trigger_task.do_channels.add_do_chan("Dev1/port0/line0")
+#trigger_task = nidaqmx.Task()
+#trigger_task.do_channels.add_do_chan("Dev1/port0/line0")
     
 ## trigger function
-def send_trigger():
-    trigger_task.write(True)
-    core.wait(0.002)  # 2 milliseconds
-    trigger_task.write(False)
+#def send_trigger():
+#    trigger_task.write(True)
+ #   core.wait(0.002)  # 2 milliseconds
+#    trigger_task.write(False)
     
 # --- Define some variables which will change depending on pilot mode ---
 '''
@@ -319,8 +319,9 @@ def setupDevices(expInfo, thisExp, win):
     deviceManager.addDevice(
         deviceName='soundStimulus_Training',
         deviceClass='psychopy.hardware.speaker.SpeakerDevice',
-        index=None,
-        name="SAMSUNG (NVIDIA High Definition Audio)",
+        index = '-1',
+       # index=None,
+       # name="SAMSUNG (NVIDIA High Definition Audio)",
         resample='True',
         latencyClass=1,
     )
@@ -328,8 +329,9 @@ def setupDevices(expInfo, thisExp, win):
     deviceManager.addDevice(
         deviceName='soundGoCue_Training',
         deviceClass='psychopy.hardware.speaker.SpeakerDevice',
-        index=None,
-        name="SAMSUNG (NVIDIA High Definition Audio)",
+        index = '-1',
+        #index=None,
+        #name="SAMSUNG (NVIDIA High Definition Audio)",
         resample='True',
         latencyClass=1,
     )
@@ -343,8 +345,9 @@ def setupDevices(expInfo, thisExp, win):
     deviceManager.addDevice(
         deviceName='soundStimulus',
         deviceClass='psychopy.hardware.speaker.SpeakerDevice',
-        index=None,
-        name="SAMSUNG (NVIDIA High Definition Audio)",
+        index = '-1',
+        #index=None,
+        #name="SAMSUNG (NVIDIA High Definition Audio)",
         resample='True',
         latencyClass=1,
     )
@@ -352,8 +355,9 @@ def setupDevices(expInfo, thisExp, win):
     deviceManager.addDevice(
         deviceName='audioGoCue',
         deviceClass='psychopy.hardware.speaker.SpeakerDevice',
-        index=None,
-        name="SAMSUNG (NVIDIA High Definition Audio)",
+        index = '-1',
+        #index=None,
+        #name="SAMSUNG (NVIDIA High Definition Audio)",
         resample='True',
         latencyClass=1,
     )
@@ -1955,7 +1959,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
                 # update status
                 trialStart_Training.status = STARTED
                 trialStart_Training.setAutoDraw(True)
-                send_trigger()
+               # send_trigger()
             
             # if trialStart_Training is active this frame...
             if trialStart_Training.status == STARTED:
@@ -2575,7 +2579,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
                     # update status
                     trialStart.status = STARTED
                     trialStart.setAutoDraw(True)
-                    send_trigger()
+                    #send_trigger()
                 
                 # if trialStart is active this frame...
                 if trialStart.status == STARTED:
