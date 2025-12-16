@@ -787,7 +787,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     
     # --- Initialize components for Routine "breakTwothirds" ---
     # Run 'Begin Experiment' code from codeTwoThrid
-    repTwothirds = 0; 
+    repTwoThirds = 0; 
     textTwothirds = visual.TextStim(win=win, name='textTwothirds',
         text='You are two thrids throug this block. \n\nWe will continue in 15 seconds',
         font='Arial',
@@ -3061,7 +3061,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
                 # update component parameters for each repeat
                 # Run 'Begin Routine' code from codeOnethird
                 # reset to default
-                repOnethird = 0
+                repOneThird = 0
                 # store start times for breakOnethird
                 breakOnethird.tStartRefresh = win.getFutureFlipTime(clock=globalClock)
                 breakOnethird.tStart = globalClock.getTime(format='float')
