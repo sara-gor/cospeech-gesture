@@ -778,7 +778,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     
     # --- Initialize components for Routine "breakOnethird" ---
     textOneThird = visual.TextStim(win=win, name='textOneThird',
-        text='You are already one third through this block!\n\nWe will continue in 15 seconds...',
+        text='You are already one third through this block!\n\nWe will continue in 30 seconds...',
         font='Arial',
         pos=(0, 0), draggable=False, height=0.05, wrapWidth=None, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
@@ -789,7 +789,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     # Run 'Begin Experiment' code from codeTwoThrid
     repTwoThirds = 0; 
     textTwothirds = visual.TextStim(win=win, name='textTwothirds',
-        text='You are two thrids throug this block. \n\nWe will continue in 15 seconds',
+        text='You are two thirds through this block. \n\nWe will continue in 30 seconds',
         font='Arial',
         pos=(0, 0), draggable=False, height=0.05, wrapWidth=None, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
@@ -2487,7 +2487,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             
             # if p was pressed, set a flag to run the routine
             run_routine = 'p' in keys
-            print(run_routine)
+            print("Experiment will pause after next trial ", run_routine)
             
             if run_routine:
                 nPause = 1
@@ -2496,7 +2496,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             
             # increase trialNumber
             trialN += 1
-            print(trialN)
+            print("Current trial number is: ",trialN)
             
             if trialN == nOneThird:
                 repOneThird = 1
@@ -3084,7 +3084,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
                 
                 # --- Run Routine "breakOnethird" ---
                 breakOnethird.forceEnded = routineForceEnded = not continueRoutine
-                while continueRoutine and routineTimer.getTime() < 15.0:
+                while continueRoutine and routineTimer.getTime() < 30.0:
                     # if trial has changed, end Routine now
                     if hasattr(thisOneThirdLoop, 'status') and thisOneThirdLoop.status == STOPPING:
                         continueRoutine = False
@@ -3257,7 +3257,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
                 
                 # --- Run Routine "breakTwothirds" ---
                 breakTwothirds.forceEnded = routineForceEnded = not continueRoutine
-                while continueRoutine and routineTimer.getTime() < 15.0:
+                while continueRoutine and routineTimer.getTime() < 30.0:
                     # if trial has changed, end Routine now
                     if hasattr(thisTwoThirdsLoop, 'status') and thisTwoThirdsLoop.status == STOPPING:
                         continueRoutine = False
