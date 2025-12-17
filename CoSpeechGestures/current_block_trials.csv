@@ -1,116 +1,116 @@
 instructionType,instructionSymbol,action,stimText,stimAudio,stimVideo,movement
-gesture,images/hand.png,go,"""what""",audios/what.wav,videos/what_clip.mp4,wrist
-speech_gesture,images/speak_gesture.png,go,"""bumpy""",audios/bumpy.wav,videos/bumpy_clip.mp4,wrist
-speech,images/speak.png,go,"""hang loose""",audios/hangloose.wav,videos/hangloose_clip.mp4,digits
-gesture,images/hand.png,go,"""goodbye""",audios/goodbye.wav,videos/goodbye_clip.mp4,wrist
-gesture,images/hand.png,go,"""yes""",audios/yes.wav,videos/yes_clip.mp4,digits
-speech,images/speak.png,go,"""sweeping""",audios/sweeping.wav,videos/sweeping_clip.mp4,arm
-speech_gesture,images/speak_gesture.png,go,"""stop""",audios/stop2.wav,videos/stop_clip.mp4,wrist
-gesture,images/hand.png,go,"""yes""",audios/yes.wav,videos/yes_clip.mp4,digits
-speech,images/speak.png,go,"""what""",audios/what.wav,videos/what_clip.mp4,wrist
-speech,images/speak.png,go,"""outside""",audios/outside.wav,videos/outside_clip.mp4,arm
-speech_gesture,images/speak_gesture.png,go,"""good luck""",audios/goodluck2.wav,videos/goodluck_clip.mp4,digits
-gesture,images/hand.png,go,"""goodbye""",audios/goodbye.wav,videos/goodbye_clip.mp4,wrist
-gesture,images/hand.png,go,"""OK""",audios/OK.wav,videos/ok_clip.mp4,digits
+speech_gesture,images/speak_gesture.png,go,"""peace""",audios/peace.wav,videos/peace_clip.mp4,digits
 gesture,images/hand.png,go,"""outside""",audios/outside.wav,videos/outside_clip.mp4,arm
+speech,images/speak.png,go,"""stop""",audios/stop2.wav,videos/stop_clip.mp4,wrist
+gesture,images/hand.png,go,"""cutting""",audios/cutting.wav,videos/cutting_clip.mp4,arm
+speech,images/speak.png,go,"""goodbye""",audios/goodbye.wav,videos/goodbye_clip.mp4,wrist
 speech_gesture,images/speak_gesture.png,go,"""sweeping""",audios/sweeping.wav,videos/sweeping_clip.mp4,arm
-speech_no,images/speak.png,nogo,"""hang loose""",audios/hangloose.wav,videos/hangloose_clip.mp4,digits
-gesture,images/hand.png,go,"""bumpy""",audios/bumpy.wav,videos/bumpy_clip.mp4,wrist
-speech_gesture,images/speak_gesture.png,go,"""sweeping""",audios/sweeping.wav,videos/sweeping_clip.mp4,arm
+speech,images/speak.png,go,"""sweeping""",audios/sweeping.wav,videos/sweeping_clip.mp4,arm
+speech,images/speak.png,go,"""sweeping""",audios/sweeping.wav,videos/sweeping_clip.mp4,arm
+gesture,images/hand.png,go,"""cutting""",audios/cutting.wav,videos/cutting_clip.mp4,arm
+speech_gesture,images/speak_gesture.png,go,"""outside""",audios/outside.wav,videos/outside_clip.mp4,arm
+speech_gesture,images/speak_gesture.png,go,"""cutting""",audios/cutting.wav,videos/cutting_clip.mp4,arm
+speech_gesture,images/speak_gesture.png,go,"""what""",audios/what.wav,videos/what_clip.mp4,wrist
 speech,images/speak.png,go,"""yes""",audios/yes.wav,videos/yes_clip.mp4,digits
-speech,images/speak.png,go,"""good luck""",audios/goodluck2.wav,videos/goodluck_clip.mp4,digits
+gesture,images/hand.png,go,"""cutting""",audios/cutting.wav,videos/cutting_clip.mp4,arm
+speech,images/speak.png,go,"""cutting""",audios/cutting.wav,videos/cutting_clip.mp4,arm
+gesture,images/hand.png,go,"""OK""",audios/OK.wav,videos/ok_clip.mp4,digits
+gesture,images/hand.png,go,"""bumpy""",audios/bumpy.wav,videos/bumpy_clip.mp4,wrist
+speech_gesture,images/speak_gesture.png,go,"""cutting""",audios/cutting.wav,videos/cutting_clip.mp4,arm
 speech,images/speak.png,go,"""goodbye""",audios/goodbye.wav,videos/goodbye_clip.mp4,wrist
 speech_gesture,images/speak_gesture.png,go,"""good luck""",audios/goodluck2.wav,videos/goodluck_clip.mp4,digits
-speech,images/speak.png,go,"""peace""",audios/peace.wav,videos/peace_clip.mp4,digits
-speech_gesture,images/speak_gesture.png,go,"""what""",audios/what.wav,videos/what_clip.mp4,wrist
-speech,images/speak.png,go,"""stop""",audios/stop2.wav,videos/stop_clip.mp4,wrist
-speech,images/speak.png,go,"""stop""",audios/stop2.wav,videos/stop_clip.mp4,wrist
-gesture,images/hand.png,go,"""OK""",audios/OK.wav,videos/ok_clip.mp4,digits
-speech_gesture,images/speak_gesture.png,go,"""goodbye""",audios/goodbye.wav,videos/goodbye_clip.mp4,wrist
 gesture,images/hand.png,go,"""peace""",audios/peace.wav,videos/peace_clip.mp4,digits
-speech,images/speak.png,go,"""what""",audios/what.wav,videos/what_clip.mp4,wrist
-gesture,images/hand.png,go,"""cutting""",audios/cutting.wav,videos/cutting_clip.mp4,arm
-gesture,images/hand.png,go,"""outside""",audios/outside.wav,videos/outside_clip.mp4,arm
-speech_gesture,images/speak_gesture.png,go,"""peace""",audios/peace.wav,videos/peace_clip.mp4,digits
-gesture,images/hand.png,go,"""good luck""",audios/goodluck2.wav,videos/goodluck_clip.mp4,digits
-gesture,images/hand.png,go,"""sweeping""",audios/sweeping.wav,videos/sweeping_clip.mp4,arm
-speech_gesture_no,images/speak_gesture.png,nogo,"""sweeping""",audios/sweeping.wav,videos/sweeping_clip.mp4,arm
-speech,images/speak.png,go,"""sweeping""",audios/sweeping.wav,videos/sweeping_clip.mp4,arm
-speech_gesture,images/speak_gesture.png,go,"""cutting""",audios/cutting.wav,videos/cutting_clip.mp4,arm
-speech,images/speak.png,go,"""cutting""",audios/cutting.wav,videos/cutting_clip.mp4,arm
-speech_gesture,images/speak_gesture.png,go,"""yes""",audios/yes.wav,videos/yes_clip.mp4,digits
-speech_gesture,images/speak_gesture.png,go,"""goodbye""",audios/goodbye.wav,videos/goodbye_clip.mp4,wrist
+speech,images/speak.png,go,"""goodbye""",audios/goodbye.wav,videos/goodbye_clip.mp4,wrist
 speech,images/speak.png,go,"""yes""",audios/yes.wav,videos/yes_clip.mp4,digits
+gesture,images/hand.png,go,"""sweeping""",audios/sweeping.wav,videos/sweeping_clip.mp4,arm
+speech_gesture,images/speak_gesture.png,go,"""what""",audios/what.wav,videos/what_clip.mp4,wrist
+speech_gesture,images/speak_gesture.png,go,"""bumpy""",audios/bumpy.wav,videos/bumpy_clip.mp4,wrist
+speech,images/speak.png,go,"""stop""",audios/stop2.wav,videos/stop_clip.mp4,wrist
+speech_gesture,images/speak_gesture.png,go,"""yes""",audios/yes.wav,videos/yes_clip.mp4,digits
+speech_gesture,images/speak_gesture.png,go,"""yes""",audios/yes.wav,videos/yes_clip.mp4,digits
+gesture,images/hand.png,go,"""stop""",audios/stop2.wav,videos/stop_clip.mp4,wrist
+gesture,images/hand.png,go,"""good luck""",audios/goodluck2.wav,videos/goodluck_clip.mp4,digits
+speech,images/speak.png,go,"""sweeping""",audios/sweeping.wav,videos/sweeping_clip.mp4,arm
+gesture,images/hand.png,go,"""OK""",audios/OK.wav,videos/ok_clip.mp4,digits
+gesture,images/hand.png,go,"""sweeping""",audios/sweeping.wav,videos/sweeping_clip.mp4,arm
+speech,images/speak.png,go,"""outside""",audios/outside.wav,videos/outside_clip.mp4,arm
+speech,images/speak.png,go,"""good luck""",audios/goodluck2.wav,videos/goodluck_clip.mp4,digits
+speech,images/speak.png,go,"""bumpy""",audios/bumpy.wav,videos/bumpy_clip.mp4,wrist
+gesture,images/hand.png,go,"""sweeping""",audios/sweeping.wav,videos/sweeping_clip.mp4,arm
+speech_gesture,images/speak_gesture.png,go,"""sweeping""",audios/sweeping.wav,videos/sweeping_clip.mp4,arm
+gesture,images/hand.png,go,"""good luck""",audios/goodluck2.wav,videos/goodluck_clip.mp4,digits
+speech,images/speak.png,go,"""peace""",audios/peace.wav,videos/peace_clip.mp4,digits
+speech,images/speak.png,go,"""hang loose""",audios/hangloose.wav,videos/hangloose_clip.mp4,digits
+speech,images/speak.png,go,"""outside""",audios/outside.wav,videos/outside_clip.mp4,arm
+gesture_no,images/hand.png,nogo,"""yes""",audios/yes.wav,videos/yes_clip.mp4,digits
+speech,images/speak.png,go,"""cutting""",audios/cutting.wav,videos/cutting_clip.mp4,arm
+gesture,images/hand.png,go,"""goodbye""",audios/goodbye.wav,videos/goodbye_clip.mp4,wrist
+speech_gesture,images/speak_gesture.png,go,"""sweeping""",audios/sweeping.wav,videos/sweeping_clip.mp4,arm
+speech,images/speak.png,go,"""good luck""",audios/goodluck2.wav,videos/goodluck_clip.mp4,digits
+speech_gesture,images/speak_gesture.png,go,"""outside""",audios/outside.wav,videos/outside_clip.mp4,arm
+speech_gesture,images/speak_gesture.png,go,"""bumpy""",audios/bumpy.wav,videos/bumpy_clip.mp4,wrist
+speech_gesture,images/speak_gesture.png,go,"""OK""",audios/OK.wav,videos/ok_clip.mp4,digits
+speech,images/speak.png,go,"""hang loose""",audios/hangloose.wav,videos/hangloose_clip.mp4,digits
+gesture,images/hand.png,go,"""yes""",audios/yes.wav,videos/yes_clip.mp4,digits
 gesture,images/hand.png,go,"""hang loose""",audios/hangloose.wav,videos/hangloose_clip.mp4,digits
 gesture,images/hand.png,go,"""outside""",audios/outside.wav,videos/outside_clip.mp4,arm
-speech_gesture_no,images/speak_gesture.png,nogo,"""stop""",audios/stop2.wav,videos/stop_clip.mp4,wrist
-gesture,images/hand.png,go,"""good luck""",audios/goodluck2.wav,videos/goodluck_clip.mp4,digits
-speech_gesture,images/speak_gesture.png,go,"""outside""",audios/outside.wav,videos/outside_clip.mp4,arm
-gesture,images/hand.png,go,"""bumpy""",audios/bumpy.wav,videos/bumpy_clip.mp4,wrist
-speech,images/speak.png,go,"""hang loose""",audios/hangloose.wav,videos/hangloose_clip.mp4,digits
+speech_gesture,images/speak_gesture.png,go,"""bumpy""",audios/bumpy.wav,videos/bumpy_clip.mp4,wrist
+speech,images/speak.png,go,"""cutting""",audios/cutting.wav,videos/cutting_clip.mp4,arm
 speech_gesture,images/speak_gesture.png,go,"""stop""",audios/stop2.wav,videos/stop_clip.mp4,wrist
+speech,images/speak.png,go,"""OK",audios/OK.wav,videos/ok_clip.mp4,digits
+speech_gesture,images/speak_gesture.png,go,"""what""",audios/what.wav,videos/what_clip.mp4,wrist
+speech_gesture,images/speak_gesture.png,go,"""good luck""",audios/goodluck2.wav,videos/goodluck_clip.mp4,digits
+gesture,images/hand.png,go,"""goodbye""",audios/goodbye.wav,videos/goodbye_clip.mp4,wrist
+speech_gesture,images/speak_gesture.png,go,"""goodbye""",audios/goodbye.wav,videos/goodbye_clip.mp4,wrist
 gesture,images/hand.png,go,"""what""",audios/what.wav,videos/what_clip.mp4,wrist
-speech_gesture,images/speak_gesture.png,go,"""cutting""",audios/cutting.wav,videos/cutting_clip.mp4,arm
-speech,images/speak.png,go,"""outside""",audios/outside.wav,videos/outside_clip.mp4,arm
-speech,images/speak.png,go,"""bumpy""",audios/bumpy.wav,videos/bumpy_clip.mp4,wrist
-speech_gesture_no,images/speak_gesture.png,nogo,"""hang loose""",audios/hangloose.wav,videos/hangloose_clip.mp4,digits
-speech,images/speak.png,go,"""peace""",audios/peace.wav,videos/peace_clip.mp4,digits
+gesture,images/hand.png,go,"""peace""",audios/peace.wav,videos/peace_clip.mp4,digits
 gesture_no,images/hand.png,nogo,"""bumpy""",audios/bumpy.wav,videos/bumpy_clip.mp4,wrist
-gesture,images/hand.png,go,"""sweeping""",audios/sweeping.wav,videos/sweeping_clip.mp4,arm
-gesture,images/hand.png,go,"""what""",audios/what.wav,videos/what_clip.mp4,wrist
-speech,images/speak.png,go,"""OK",audios/OK.wav,videos/ok_clip.mp4,digits
-gesture,images/hand.png,go,"""stop""",audios/stop2.wav,videos/stop_clip.mp4,wrist
-speech,images/speak.png,go,"""OK",audios/OK.wav,videos/ok_clip.mp4,digits
-speech_gesture,images/speak_gesture.png,go,"""hang loose""",audios/hangloose.wav,videos/hangloose_clip.mp4,digits
-speech_gesture,images/speak_gesture.png,go,"""OK""",audios/OK.wav,videos/ok_clip.mp4,digits
-speech_gesture,images/speak_gesture.png,go,"""OK""",audios/OK.wav,videos/ok_clip.mp4,digits
-speech_gesture,images/speak_gesture.png,go,"""yes""",audios/yes.wav,videos/yes_clip.mp4,digits
-speech_gesture,images/speak_gesture.png,go,"""cutting""",audios/cutting.wav,videos/cutting_clip.mp4,arm
-speech,images/speak.png,go,"""goodbye""",audios/goodbye.wav,videos/goodbye_clip.mp4,wrist
-speech,images/speak.png,go,"""OK",audios/OK.wav,videos/ok_clip.mp4,digits
-speech,images/speak.png,go,"""cutting""",audios/cutting.wav,videos/cutting_clip.mp4,arm
-gesture,images/hand.png,go,"""stop""",audios/stop2.wav,videos/stop_clip.mp4,wrist
-speech,images/speak.png,go,"""what""",audios/what.wav,videos/what_clip.mp4,wrist
-speech_gesture,images/speak_gesture.png,go,"""OK""",audios/OK.wav,videos/ok_clip.mp4,digits
-speech_gesture_no,images/speak_gesture.png,nogo,"""cutting""",audios/cutting.wav,videos/cutting_clip.mp4,arm
-gesture,images/hand.png,go,"""cutting""",audios/cutting.wav,videos/cutting_clip.mp4,arm
-gesture,images/hand.png,go,"""peace""",audios/peace.wav,videos/peace_clip.mp4,digits
-speech,images/speak.png,go,"""sweeping""",audios/sweeping.wav,videos/sweeping_clip.mp4,arm
-speech_gesture,images/speak_gesture.png,go,"""hang loose""",audios/hangloose.wav,videos/hangloose_clip.mp4,digits
-gesture,images/hand.png,go,"""stop""",audios/stop2.wav,videos/stop_clip.mp4,wrist
-speech,images/speak.png,go,"""bumpy""",audios/bumpy.wav,videos/bumpy_clip.mp4,wrist
-speech,images/speak.png,go,"""cutting""",audios/cutting.wav,videos/cutting_clip.mp4,arm
-speech_gesture,images/speak_gesture.png,go,"""bumpy""",audios/bumpy.wav,videos/bumpy_clip.mp4,wrist
-gesture,images/hand.png,go,"""hang loose""",audios/hangloose.wav,videos/hangloose_clip.mp4,digits
-speech,images/speak.png,go,"""peace""",audios/peace.wav,videos/peace_clip.mp4,digits
-speech_gesture,images/speak_gesture.png,go,"""peace""",audios/peace.wav,videos/peace_clip.mp4,digits
-gesture,images/hand.png,go,"""bumpy""",audios/bumpy.wav,videos/bumpy_clip.mp4,wrist
-speech_gesture,images/speak_gesture.png,go,"""yes""",audios/yes.wav,videos/yes_clip.mp4,digits
-gesture,images/hand.png,go,"""sweeping""",audios/sweeping.wav,videos/sweeping_clip.mp4,arm
-speech_gesture_no,images/speak_gesture.png,nogo,"""peace""",audios/peace.wav,videos/peace_clip.mp4,digits
-speech,images/speak.png,go,"""stop""",audios/stop2.wav,videos/stop_clip.mp4,wrist
 speech_gesture,images/speak_gesture.png,go,"""goodbye""",audios/goodbye.wav,videos/goodbye_clip.mp4,wrist
-speech_gesture,images/speak_gesture.png,go,"""outside""",audios/outside.wav,videos/outside_clip.mp4,arm
-speech_gesture,images/speak_gesture.png,go,"""stop""",audios/stop2.wav,videos/stop_clip.mp4,wrist
-speech,images/speak.png,go,"""good luck""",audios/goodluck2.wav,videos/goodluck_clip.mp4,digits
-speech_gesture,images/speak_gesture.png,go,"""peace""",audios/peace.wav,videos/peace_clip.mp4,digits
 gesture,images/hand.png,go,"""yes""",audios/yes.wav,videos/yes_clip.mp4,digits
-gesture,images/hand.png,go,"""hang loose""",audios/hangloose.wav,videos/hangloose_clip.mp4,digits
-gesture,images/hand.png,go,"""peace""",audios/peace.wav,videos/peace_clip.mp4,digits
-speech_gesture,images/speak_gesture.png,go,"""good luck""",audios/goodluck2.wav,videos/goodluck_clip.mp4,digits
-speech_gesture,images/speak_gesture.png,go,"""hang loose""",audios/hangloose.wav,videos/hangloose_clip.mp4,digits
-gesture,images/hand.png,go,"""cutting""",audios/cutting.wav,videos/cutting_clip.mp4,arm
-speech_gesture,images/speak_gesture.png,go,"""what""",audios/what.wav,videos/what_clip.mp4,wrist
-speech,images/speak.png,go,"""good luck""",audios/goodluck2.wav,videos/goodluck_clip.mp4,digits
-speech,images/speak.png,go,"""goodbye""",audios/goodbye.wav,videos/goodbye_clip.mp4,wrist
-speech_gesture,images/speak_gesture.png,go,"""bumpy""",audios/bumpy.wav,videos/bumpy_clip.mp4,wrist
-speech_gesture,images/speak_gesture.png,go,"""outside""",audios/outside.wav,videos/outside_clip.mp4,arm
-speech_gesture,images/speak_gesture.png,go,"""what""",audios/what.wav,videos/what_clip.mp4,wrist
-gesture,images/hand.png,go,"""goodbye""",audios/goodbye.wav,videos/goodbye_clip.mp4,wrist
-gesture,images/hand.png,go,"""OK""",audios/OK.wav,videos/ok_clip.mp4,digits
-speech,images/speak.png,go,"""yes""",audios/yes.wav,videos/yes_clip.mp4,digits
-speech,images/speak.png,go,"""outside""",audios/outside.wav,videos/outside_clip.mp4,arm
-gesture,images/hand.png,go,"""good luck""",audios/goodluck2.wav,videos/goodluck_clip.mp4,digits
-speech_gesture,images/speak_gesture.png,go,"""sweeping""",audios/sweeping.wav,videos/sweeping_clip.mp4,arm
+speech,images/speak.png,go,"""peace""",audios/peace.wav,videos/peace_clip.mp4,digits
 speech,images/speak.png,go,"""hang loose""",audios/hangloose.wav,videos/hangloose_clip.mp4,digits
+speech_gesture,images/speak_gesture.png,go,"""OK""",audios/OK.wav,videos/ok_clip.mp4,digits
+gesture,images/hand.png,go,"""hang loose""",audios/hangloose.wav,videos/hangloose_clip.mp4,digits
+gesture_no,images/hand.png,nogo,"""hang loose""",audios/hangloose.wav,videos/hangloose_clip.mp4,digits
+speech_gesture,images/speak_gesture.png,go,"""hang loose""",audios/hangloose.wav,videos/hangloose_clip.mp4,digits
+gesture,images/hand.png,go,"""stop""",audios/stop2.wav,videos/stop_clip.mp4,wrist
+gesture_no,images/hand.png,nogo,"""OK""",audios/OK.wav,videos/ok_clip.mp4,digits
+gesture,images/hand.png,go,"""yes""",audios/yes.wav,videos/yes_clip.mp4,digits
+gesture_no,images/hand.png,nogo,"""outside""",audios/outside.wav,videos/outside_clip.mp4,arm
+speech_gesture,images/speak_gesture.png,go,"""hang loose""",audios/hangloose.wav,videos/hangloose_clip.mp4,digits
+speech_gesture,images/speak_gesture.png,go,"""goodbye""",audios/goodbye.wav,videos/goodbye_clip.mp4,wrist
+speech,images/speak.png,go,"""what""",audios/what.wav,videos/what_clip.mp4,wrist
+speech_gesture_no,images/speak_gesture.png,nogo,"""good luck""",audios/goodluck2.wav,videos/goodluck_clip.mp4,digits
+gesture,images/hand.png,go,"""bumpy""",audios/bumpy.wav,videos/bumpy_clip.mp4,wrist
+speech_gesture,images/speak_gesture.png,go,"""stop""",audios/stop2.wav,videos/stop_clip.mp4,wrist
+speech,images/speak.png,go,"""what""",audios/what.wav,videos/what_clip.mp4,wrist
 speech,images/speak.png,go,"""bumpy""",audios/bumpy.wav,videos/bumpy_clip.mp4,wrist
+speech_gesture,images/speak_gesture.png,go,"""good luck""",audios/goodluck2.wav,videos/goodluck_clip.mp4,digits
+gesture,images/hand.png,go,"""stop""",audios/stop2.wav,videos/stop_clip.mp4,wrist
+gesture,images/hand.png,go,"""bumpy""",audios/bumpy.wav,videos/bumpy_clip.mp4,wrist
+speech_gesture,images/speak_gesture.png,go,"""hang loose""",audios/hangloose.wav,videos/hangloose_clip.mp4,digits
+gesture,images/hand.png,go,"""what""",audios/what.wav,videos/what_clip.mp4,wrist
+speech_gesture,images/speak_gesture.png,go,"""stop""",audios/stop2.wav,videos/stop_clip.mp4,wrist
+gesture,images/hand.png,go,"""hang loose""",audios/hangloose.wav,videos/hangloose_clip.mp4,digits
+speech_gesture,images/speak_gesture.png,go,"""peace""",audios/peace.wav,videos/peace_clip.mp4,digits
+speech_gesture,images/speak_gesture.png,go,"""OK""",audios/OK.wav,videos/ok_clip.mp4,digits
+gesture,images/hand.png,go,"""peace""",audios/peace.wav,videos/peace_clip.mp4,digits
+gesture,images/hand.png,go,"""goodbye""",audios/goodbye.wav,videos/goodbye_clip.mp4,wrist
+speech_no,images/speak.png,nogo,"""sweeping""",audios/sweeping.wav,videos/sweeping_clip.mp4,arm
+speech,images/speak.png,go,"""OK",audios/OK.wav,videos/ok_clip.mp4,digits
+gesture,images/hand.png,go,"""OK""",audios/OK.wav,videos/ok_clip.mp4,digits
+speech,images/speak.png,go,"""what""",audios/what.wav,videos/what_clip.mp4,wrist
+speech_gesture,images/speak_gesture.png,go,"""outside""",audios/outside.wav,videos/outside_clip.mp4,arm
+speech_gesture,images/speak_gesture.png,go,"""cutting""",audios/cutting.wav,videos/cutting_clip.mp4,arm
+speech,images/speak.png,go,"""good luck""",audios/goodluck2.wav,videos/goodluck_clip.mp4,digits
+speech,images/speak.png,go,"""peace""",audios/peace.wav,videos/peace_clip.mp4,digits
+gesture,images/hand.png,go,"""good luck""",audios/goodluck2.wav,videos/goodluck_clip.mp4,digits
+speech,images/speak.png,go,"""outside""",audios/outside.wav,videos/outside_clip.mp4,arm
+speech,images/speak.png,go,"""yes""",audios/yes.wav,videos/yes_clip.mp4,digits
+speech,images/speak.png,go,"""stop""",audios/stop2.wav,videos/stop_clip.mp4,wrist
+gesture,images/hand.png,go,"""outside""",audios/outside.wav,videos/outside_clip.mp4,arm
+speech,images/speak.png,go,"""OK",audios/OK.wav,videos/ok_clip.mp4,digits
+speech,images/speak.png,go,"""bumpy""",audios/bumpy.wav,videos/bumpy_clip.mp4,wrist
+speech_gesture,images/speak_gesture.png,go,"""yes""",audios/yes.wav,videos/yes_clip.mp4,digits
+speech_gesture,images/speak_gesture.png,go,"""peace""",audios/peace.wav,videos/peace_clip.mp4,digits
+gesture,images/hand.png,go,"""what""",audios/what.wav,videos/what_clip.mp4,wrist

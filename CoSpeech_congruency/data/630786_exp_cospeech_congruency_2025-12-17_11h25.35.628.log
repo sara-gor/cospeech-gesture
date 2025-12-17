@@ -1,0 +1,226 @@
+19.6172 	WARNING 	/Users/sara-sofiagorriz/.psychopy3/fonts/Calibri.truetype doesn't have valid font family name
+19.6247 	WARNING 	Font Manager failed to load file /System/Library/PrivateFrameworks/FontServices.framework/Resources/Reserved/PingFangUI.ttc
+19.7001 	WARNING 	/Users/sara-sofiagorriz/.psychopy3/fonts/Calibri.truetype doesn't have valid font family name
+19.7021 	WARNING 	Font Manager failed to load file /System/Library/PrivateFrameworks/FontServices.framework/Resources/Reserved/PingFangUI.ttc
+22.2856 	INFO 	Loaded monitor calibration from ['2025_12_15 15:02']
+22.4441 	INFO 	Using renderer 'Apple M1 Pro' for graphics
+22.4441 	INFO 	OpenGL version supported by driver is 2..
+22.4914 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x13804acb0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x13804ac50>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x138114df0>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(0.0), np.float64(0.0)], screen=1, size=array([1920, 1080]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+22.4915 	EXP 	window1: backgroundImage = ''
+22.4915 	EXP 	window1: backgroundFit = 'none'
+22.8521 	EXP 	window1: Attempting to measure frame rate of screen (1) ...
+22.8522 	EXP 	window1: recordFrameIntervals = False
+23.0450 	EXP 	window1: recordFrameIntervals = True
+23.1922 	EXP 	Screen (1) actual frame rate measured at 74.90Hz
+23.1922 	EXP 	window1: recordFrameIntervals = False
+24.1164 	INFO 	keyboard.Keyboard is using ptb backend.
+24.2545 	INFO 	keyboard.Keyboard is using ptb backend.
+24.3782 	INFO 	keyboard.Keyboard is using ptb backend.
+24.5024 	INFO 	keyboard.Keyboard is using ptb backend.
+24.6288 	INFO 	keyboard.Keyboard is using ptb backend.
+24.7566 	INFO 	keyboard.Keyboard is using ptb backend.
+24.8843 	INFO 	keyboard.Keyboard is using ptb backend.
+25.0370 	WARNING 	No default speaker specified in Preferences / Hardware, using first speaker found: DELL U2419H
+25.0823 	INFO 	New audio device 0 with handle 0 opened as PortAudio stream:
+25.0823 	INFO 	For 2 channels Playback: Audio subsystem is Core Audio, Audio device name is DELL U2419H
+25.0823 	INFO 	Real samplerate 48000,000000 Hz. Input latency 0,000000 msecs, Output latency 10,000000 msecs.
+25.0823 	INFO 	Created stream for speaker device: DELL U2419H (0.0)
+25.2080 	WARNING 	No default speaker specified in Preferences / Hardware, using first speaker found: DELL U2419H
+25.2154 	INFO 	New audio device 0 with handle 1 opened as PortAudio stream:
+25.2154 	INFO 	For 2 channels Playback: Audio subsystem is Core Audio, Audio device name is DELL U2419H
+25.2154 	INFO 	Real samplerate 48000,000000 Hz. Input latency 0,000000 msecs, Output latency 10,000000 msecs.
+25.2154 	INFO 	Created stream for speaker device: DELL U2419H (0.0)
+25.3661 	INFO 	keyboard.Keyboard is using ptb backend.
+25.3663 	WARNING 	No default speaker specified in Preferences / Hardware, using first speaker found: DELL U2419H
+25.3729 	INFO 	New audio device 0 with handle 2 opened as PortAudio stream:
+25.3729 	INFO 	For 2 channels Playback: Audio subsystem is Core Audio, Audio device name is DELL U2419H
+25.3729 	INFO 	Real samplerate 48000,000000 Hz. Input latency 0,000000 msecs, Output latency 10,000000 msecs.
+25.3729 	INFO 	Created stream for speaker device: DELL U2419H (0.0)
+25.4254 	WARNING 	No default speaker specified in Preferences / Hardware, using first speaker found: DELL U2419H
+25.4330 	INFO 	New audio device 0 with handle 3 opened as PortAudio stream:
+25.4330 	INFO 	For 2 channels Playback: Audio subsystem is Core Audio, Audio device name is DELL U2419H
+25.4330 	INFO 	Real samplerate 48000,000000 Hz. Input latency 0,000000 msecs, Output latency 10,000000 msecs.
+25.4330 	INFO 	Created stream for speaker device: DELL U2419H (0.0)
+25.6414 	INFO 	keyboard.Keyboard is using ptb backend.
+25.6414 	EXP 	exp_cospeech_congruency: status = STARTED
+25.7087 	EXP 	Created textWelcome = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.04), italic=False, languageStyle='LTR', name='textWelcome', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+25.7283 	EXP 	Created textExplanation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.04), italic=False, languageStyle='LTR', name='textExplanation', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+25.7724 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='images/speak.png', interpolate=True, mask=None, maskParams=None, name='image', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+25.7754 	EXP 	Created textInstructSpeak = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.04), italic=False, languageStyle='LTR', name='textInstructSpeak', opacity=1, ori=0.0, pos=array([0. , 0.4]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+25.7771 	EXP 	Created textInstructSpeak_continue = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.04), italic=False, languageStyle='LTR', name='textInstructSpeak_continue', opacity=1, ori=0.0, pos=array([ 0. , -0.4]), rgb=UNKNOWN, text='Press SPACEBAR to continue.', units='height', win=Window(...), wrapWidth=1)
+25.7798 	EXP 	Created textInstructHand = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.04), italic=False, languageStyle='LTR', name='textInstructHand', opacity=1, ori=0.0, pos=array([0. , 0.4]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+25.7868 	EXP 	Created imageInstructHand = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='images/hand.png', interpolate=True, mask=None, maskParams=None, name='imageInstructHand', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+25.7886 	EXP 	Created textInstructHand_continue = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.04), italic=False, languageStyle='LTR', name='textInstructHand_continue', opacity=1, ori=0.0, pos=array([ 0. , -0.4]), rgb=UNKNOWN, text='Press SPACEBAR to continue.', units='height', win=Window(...), wrapWidth=1)
+25.8191 	EXP 	Created imageInstructBoth = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='images/speak_gesture1.png', interpolate=True, mask=None, maskParams=None, name='imageInstructBoth', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128.0, units='height', win=Window(...))
+25.8228 	EXP 	Created textInstructBoth = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.04), italic=False, languageStyle='LTR', name='textInstructBoth', opacity=1, ori=0.0, pos=array([0. , 0.4]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+25.8279 	EXP 	Created textInstructBoth_continue = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='textInstructBoth_continue', opacity=1, ori=0.0, pos=array([ 0. , -0.4]), rgb=UNKNOWN, text='Press SPACEBAR to continue.', units='height', win=Window(...), wrapWidth=1)
+25.8323 	EXP 	Created textBlockTraining = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='textBlockTraining', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+25.8330 	EXP 	Created iti_Training = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, draggable=False, fillColor=array([-1., -1., -1.]), fillColorSpace='rgb', fillRGB=array([-1., -1., -1.]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=1.0, name='iti_Training', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([2., 2.]), units='height', vertices=ndarray(...), win=Window(...))
+25.8376 	EXP 	Created textStart_Training = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.3), italic=False, languageStyle='LTR', name='textStart_Training', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='START', units='height', win=Window(...), wrapWidth=1)
+25.8402 	WARNING 	Using `sdl2` for audio playback via `ffpyplayer`. This is not recommended for applications requiring precise audio-visual synchronization.
+25.8478 	INFO 	Loaded psychtoolbox audio version 3.0.19.696976787
+25.8479 	EXP 	audioStim_Training: sampleRate = 48000
+25.8480 	EXP 	audioStim_Training: channels = None
+25.8566 	EXP 	Sound audioStim_Training set volume 1.000
+25.8612 	EXP 	Created instructionImage_Training = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='default.png', interpolate=True, mask=None, maskParams=None, name='instructionImage_Training', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128.0, units='height', win=Window(...))
+25.8656 	EXP 	Created actionCue_Training = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-6.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='actionCue_Training', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+25.8723 	EXP 	audioGoCue_Training: sampleRate = 48000
+25.8723 	EXP 	audioGoCue_Training: channels = None
+25.8730 	EXP 	Sound audioGoCue_Training set volume 0.800
+25.8787 	EXP 	Created textBlockStart = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='textBlockStart', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+25.8793 	EXP 	Created iti = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, draggable=False, fillColor=array([-1., -1., -1.]), fillColorSpace='rgb', fillRGB=array([-1., -1., -1.]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=1.0, name='iti', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([2., 2.]), units='height', vertices=ndarray(...), win=Window(...))
+25.8808 	EXP 	Created textStart = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.3), italic=False, languageStyle='LTR', name='textStart', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='START', units='height', win=Window(...), wrapWidth=1)
+25.8810 	WARNING 	Using `sdl2` for audio playback via `ffpyplayer`. This is not recommended for applications requiring precise audio-visual synchronization.
+25.8862 	EXP 	audioStimuli: sampleRate = 48000
+25.8862 	EXP 	audioStimuli: channels = None
+25.8929 	EXP 	Sound audioStimuli set volume 1.000
+25.8966 	EXP 	Created instructionImage = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='default.png', interpolate=True, mask=None, maskParams=None, name='instructionImage', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128.0, units='height', win=Window(...))
+25.9003 	EXP 	Created actionCue = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-6.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='actionCue', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+25.9056 	EXP 	audioGoCue: sampleRate = 48000
+25.9056 	EXP 	audioGoCue: channels = None
+25.9063 	EXP 	Sound audioGoCue set volume 0.800
+25.9106 	EXP 	Created textPause = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='textPause', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+25.9156 	EXP 	Created textOneThird = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='textOneThird', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+25.9185 	EXP 	Created textTwothirds = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='textTwothirds', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+25.9243 	EXP 	Created textGoodbye = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='textGoodbye', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+0.0057 	EXP 	movieGesture_Training: autoLog = True
+0.0057 	EXP 	movieGesture: autoLog = True
+0.0191 	INFO 	Keyboard events cleared
+0.0190 	EXP 	textWelcome: autoDraw = True
+4.1391 	EXP 	Device response: <KeyPress from None: t=3.913101541999822, value=space, duration=None>
+4.1393 	EXP 	Device response: <KeyPress from None: t=3.913101541999822, value=space, duration=0.03212495800016768>
+4.1501 	DATA 	Keypress: space
+4.1544 	INFO 	Keyboard events cleared
+4.1543 	EXP 	textWelcome: autoDraw = False
+4.1543 	EXP 	textExplanation: autoDraw = True
+4.6743 	EXP 	Device response: <KeyPress from None: t=4.660220750000008, value=space, duration=None>
+4.6989 	DATA 	Keypress: space
+4.7013 	INFO 	Keyboard events cleared
+4.7012 	EXP 	textExplanation: autoDraw = False
+4.7012 	EXP 	image: autoDraw = True
+4.7012 	EXP 	textInstructSpeak: autoDraw = True
+4.7012 	EXP 	textInstructSpeak_continue: autoDraw = True
+4.7237 	EXP 	Device response: <KeyPress from None: t=4.660220750000008, value=space, duration=0.05607729199982714>
+5.0068 	EXP 	Device response: <KeyPress from None: t=4.9979203749999215, value=space, duration=None>
+5.0159 	DATA 	Keypress: space
+5.0192 	INFO 	Keyboard events cleared
+5.0190 	EXP 	image: autoDraw = False
+5.0190 	EXP 	textInstructSpeak: autoDraw = False
+5.0190 	EXP 	textInstructSpeak_continue: autoDraw = False
+5.0190 	EXP 	textInstructHand: autoDraw = True
+5.0190 	EXP 	imageInstructHand: autoDraw = True
+5.0190 	EXP 	textInstructHand_continue: autoDraw = True
+5.0596 	EXP 	Device response: <KeyPress from None: t=4.9979203749999215, value=space, duration=0.052029707999736274>
+5.3397 	EXP 	Device response: <KeyPress from None: t=5.3331260420000035, value=space, duration=None>
+5.3453 	DATA 	Keypress: space
+5.3500 	INFO 	Keyboard events cleared
+5.3499 	EXP 	textInstructHand: autoDraw = False
+5.3499 	EXP 	imageInstructHand: autoDraw = False
+5.3499 	EXP 	textInstructHand_continue: autoDraw = False
+5.3499 	EXP 	imageInstructBoth: autoDraw = True
+5.3499 	EXP 	textInstructBoth: autoDraw = True
+5.3499 	EXP 	textInstructBoth_continue: autoDraw = True
+5.3908 	EXP 	Device response: <KeyPress from None: t=5.3331260420000035, value=space, duration=0.048029999999926076>
+5.6738 	EXP 	Device response: <KeyPress from None: t=5.6663885829998435, value=space, duration=None>
+5.6908 	EXP 	Imported trainingTrials.csv as conditions, 18 conditions, 8 params
+5.6916 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'instructionType': 'speech', 'instructionSymbol': 'images/speak.png', 'action': 'nogo', 'stimText': '"rising"', 'stimVideo': 'videos/falling_clip.mp4', 'stimAudio': 'audios/rising.wav', 'movement': 'arm', 'congruency': 'incongruent', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+5.6958 	DATA 	Keypress: space
+5.6989 	INFO 	Keyboard events cleared
+5.6988 	EXP 	imageInstructBoth: autoDraw = False
+5.6988 	EXP 	textInstructBoth: autoDraw = False
+5.6988 	EXP 	textInstructBoth_continue: autoDraw = False
+5.6988 	EXP 	textBlockTraining: autoDraw = True
+5.7244 	EXP 	Device response: <KeyPress from None: t=5.6663885829998435, value=space, duration=0.051930583999819646>
+6.1913 	EXP 	Device response: <KeyPress from None: t=6.181695750000017, value=space, duration=None>
+6.5197 	INFO 	Opening movie file: /Users/sara-sofiagorriz/Library/CloudStorage/OneDrive-Chalmers/Experiments/cospeech-gesture/CoSpeech_congruency/videos/falling_clip.mp4
+6.6691 	EXP 	audioStim_Training: sampleRate = 44100
+6.6796 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+6.6894 	EXP 	audioGoCue_Training: sampleRate = 44100
+6.6970 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+6.6983 	EXP 	Device response: <KeyPress from None: t=6.181695750000017, value=space, duration=0.05203837499993824>
+6.7222 	DATA 	Keypress: space
+6.7259 	EXP 	textBlockTraining: autoDraw = False
+6.7259 	EXP 	instructionImage_Training: image = 'images/speak.png'
+6.7259 	EXP 	actionCue_Training: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+6.7259 	EXP 	actionCue_Training: borderColor = <psychopy.colors.Color: red, alpha=1.0>
+6.7259 	EXP 	iti_Training: autoDraw = True
+8.1913 	EXP 	iti_Training: autoDraw = False
+8.1913 	EXP 	textStart_Training: autoDraw = True
+9.1802 	INFO 	Movie playback /Users/sara-sofiagorriz/Library/CloudStorage/OneDrive-Chalmers/Experiments/cospeech-gesture/CoSpeech_congruency/videos/falling_clip.mp4 started at 0.00 seconds
+9.1961 	EXP 	textStart_Training: autoDraw = False
+9.1961 	EXP 	movieGesture_Training: autoDraw = True
+9.5542 	EXP 	Device response: <KeyPress from None: t=9.54554991699979, value=f12, duration=None>
+9.6325 	EXP 	Device response: <KeyPress from None: t=9.54554991699979, value=f12, duration=0.07583879100002378>
+9.6854 	EXP 	Sound audioStim_Training reached end of file
+9.7019 	EXP 	Playing sound audioStim_Training on speaker DELL U2419H
+10.1533 	EXP 	Device response: <KeyPress from None: t=10.14437658299994, value=f12, duration=None>
+10.2327 	EXP 	Device response: <KeyPress from None: t=10.14437658299994, value=f12, duration=0.07981408399973589>
+10.3554 	EXP 	Device response: <KeyPress from None: t=10.346201874999679, value=f12, duration=None>
+10.4063 	EXP 	Device response: <KeyPress from None: t=10.346201874999679, value=f12, duration=0.047762832999978855>
+10.4904 	EXP 	Device response: <KeyPress from None: t=10.480996832999608, value=f12, duration=None>
+10.5529 	EXP 	Device response: <KeyPress from None: t=10.480996832999608, value=f12, duration=0.06011995900007605>
+10.6463 	EXP 	Device response: <KeyPress from None: t=10.634066332999737, value=f12, duration=None>
+10.6997 	EXP 	Device response: <KeyPress from None: t=10.634066332999737, value=f12, duration=0.05194362500014904>
+10.7483 	EXP 	Sound audioStim_Training reached end of file
+10.7527 	EXP 	Sound audioStim_Training reached end of file
+10.7845 	EXP 	Device response: <KeyPress from None: t=10.77413229199965, value=f12, duration=None>
+10.8339 	EXP 	Device response: <KeyPress from None: t=10.77413229199965, value=f12, duration=0.05195175000017116>
+10.9127 	EXP 	Device response: <KeyPress from None: t=10.910139624999829, value=f12, duration=None>
+10.9797 	EXP 	Device response: <KeyPress from None: t=10.910139624999829, value=f12, duration=0.055978166999921086>
+12.1864 	INFO 	Opening movie file: /Users/sara-sofiagorriz/Library/CloudStorage/OneDrive-Chalmers/Experiments/cospeech-gesture/CoSpeech_congruency/videos/falling_clip.mp4
+12.2873 	INFO 	Movie stopped: /Users/sara-sofiagorriz/Library/CloudStorage/OneDrive-Chalmers/Experiments/cospeech-gesture/CoSpeech_congruency/videos/falling_clip.mp4
+12.2900 	EXP 	movieGesture_Training: autoDraw = False
+12.2900 	EXP 	instructionImage_Training: autoDraw = True
+12.3267 	EXP 	Device response: <KeyPress from None: t=12.318447832999937, value=f11, duration=None>
+12.4357 	EXP 	Device response: <KeyPress from None: t=12.318447832999937, value=f11, duration=0.1081822920000377>
+14.6754 	EXP 	Sound audioGoCue_Training reached end of file
+14.6915 	EXP 	Playing sound audioGoCue_Training on speaker DELL U2419H
+14.6886 	EXP 	instructionImage_Training: autoDraw = False
+14.6886 	EXP 	actionCue_Training: autoDraw = True
+15.6883 	EXP 	Sound audioGoCue_Training stopped
+18.1853 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'instructionType': 'speech', 'instructionSymbol': 'images/speak.png', 'action': 'go', 'stimText': '"you"', 'stimVideo': 'videos/you_clip.mp4', 'stimAudio': 'audios/you.wav', 'movement': 'hand_wrist', 'congruency': 'congruent', 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+18.2011 	INFO 	Keyboard events cleared
+18.2009 	EXP 	actionCue_Training: autoDraw = False
+18.2009 	EXP 	iti_Training: autoDraw = False
+18.2009 	EXP 	textStart_Training: autoDraw = False
+18.2009 	EXP 	movieGesture_Training: autoDraw = False
+18.2009 	EXP 	instructionImage_Training: autoDraw = False
+18.2009 	EXP 	actionCue_Training: autoDraw = False
+18.2009 	EXP 	textBlockTraining: autoDraw = True
+19.6803 	EXP 	Device response: <KeyPress from None: t=19.67499537499998, value=space, duration=None>
+19.6953 	INFO 	Opening movie file: /Users/sara-sofiagorriz/Library/CloudStorage/OneDrive-Chalmers/Experiments/cospeech-gesture/CoSpeech_congruency/videos/you_clip.mp4
+19.8360 	EXP 	audioStim_Training: sampleRate = 44100
+19.8412 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+19.8475 	EXP 	audioGoCue_Training: sampleRate = 44100
+19.8532 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+19.8542 	EXP 	Device response: <KeyPress from None: t=19.67499537499998, value=space, duration=0.035607249999884516>
+19.8560 	DATA 	Keypress: space
+19.8587 	EXP 	textBlockTraining: autoDraw = False
+19.8587 	EXP 	instructionImage_Training: image = 'images/speak.png'
+19.8587 	EXP 	actionCue_Training: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+19.8587 	EXP 	actionCue_Training: borderColor = <psychopy.colors.Color: green, alpha=1.0>
+19.8587 	EXP 	iti_Training: autoDraw = True
+21.6778 	EXP 	iti_Training: autoDraw = False
+21.6778 	EXP 	textStart_Training: autoDraw = True
+22.6654 	INFO 	Movie playback /Users/sara-sofiagorriz/Library/CloudStorage/OneDrive-Chalmers/Experiments/cospeech-gesture/CoSpeech_congruency/videos/you_clip.mp4 started at 0.00 seconds
+22.6770 	EXP 	textStart_Training: autoDraw = False
+22.6770 	EXP 	movieGesture_Training: autoDraw = True
+23.1702 	EXP 	Sound audioStim_Training reached end of file
+23.1867 	EXP 	Playing sound audioStim_Training on speaker DELL U2419H
+23.9309 	EXP 	Device response: <KeyPress from None: t=23.92690724999966, value=escape, duration=None>
+23.9564 	DATA 	Keypress: escape
+24.0376 	EXP 	Device response: <KeyPress from None: t=23.92690724999966, value=escape, duration=0.0998787500002436>
+24.0377 	EXP 	exp_cospeech_congruency: status = STOPPED
+24.0503 	EXP 	movieGesture_Training: autoDraw = False
+24.0503 	EXP 	exp_cospeech_congruency: status = STOPPED
+24.0537 	INFO 	saved data to '/Users/sara-sofiagorriz/Library/CloudStorage/OneDrive-Chalmers/Experiments/cospeech-gesture/CoSpeech_congruency/data/630786_exp_cospeech_congruency_2025-12-17_11h25.35.628.csv'
+24.0550 	INFO 	saved data to /Users/sara-sofiagorriz/Library/CloudStorage/OneDrive-Chalmers/Experiments/cospeech-gesture/CoSpeech_congruency/data/630786_exp_cospeech_congruency_2025-12-17_11h25.35.628.psydat
+24.7046 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+24.7048 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+24.7049 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+24.7049 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+24.7049 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+24.7050 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+24.7050 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+24.7050 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+24.7050 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.

@@ -1,0 +1,27 @@
+41.2360 	WARNING 	/Users/sara-sofiagorriz/.psychopy3/fonts/Calibri.truetype doesn't have valid font family name
+41.2421 	WARNING 	Font Manager failed to load file /System/Library/PrivateFrameworks/FontServices.framework/Resources/Reserved/PingFangUI.ttc
+41.3829 	WARNING 	/Users/sara-sofiagorriz/.psychopy3/fonts/Calibri.truetype doesn't have valid font family name
+41.3836 	WARNING 	Font Manager failed to load file /System/Library/PrivateFrameworks/FontServices.framework/Resources/Reserved/PingFangUI.ttc
+41.3993 	WARNING 	Import Error: No module named 'psychtoolbox'. Using event module for keyboard component.
+43.5708 	INFO 	Loaded monitor calibration from ['2025_12_15 15:02']
+43.5730 	WARNING 	User requested fullscreen with size [1800 1169], but screen is actually [1920, 1080]. Using actual size
+43.6864 	INFO 	Using renderer 'Apple M1 Pro' for graphics
+43.6865 	INFO 	OpenGL version supported by driver is 2..
+43.7031 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x16aec8fd0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x16aec8f70>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x16bacaad0>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(0.0), np.float64(0.0)], screen=1, size=array([1920, 1080]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+43.7031 	EXP 	window1: backgroundImage = ''
+43.7031 	EXP 	window1: backgroundFit = 'none'
+43.9135 	EXP 	window1: Attempting to measure frame rate of screen (1) ...
+43.9135 	EXP 	window1: recordFrameIntervals = False
+44.0096 	EXP 	window1: recordFrameIntervals = True
+44.0278 	EXP 	Screen (1) actual frame rate measured at 607.36Hz
+44.0278 	EXP 	window1: recordFrameIntervals = False
+44.0279 	INFO 	keyboard.Keyboard is using ptb backend.
+44.0279 	INFO 	keyboard.Keyboard is using ptb backend.
+44.0279 	INFO 	keyboard.Keyboard is using ptb backend.
+44.0279 	INFO 	keyboard.Keyboard is using ptb backend.
+44.0279 	INFO 	keyboard.Keyboard is using ptb backend.
+44.0279 	INFO 	keyboard.Keyboard is using ptb backend.
+44.0279 	INFO 	keyboard.Keyboard is using ptb backend.
+44.0394 	INFO 	saved data to /Users/sara-sofiagorriz/Documents/UPF Barcelona/Interactive Systems/cospeech-gesture/CoSpeechGestures/data/083933_CoSpeechGestures_2025-12-17_11h17.38.044.psydat
+44.0396 	INFO 	saved data to '/Users/sara-sofiagorriz/Documents/UPF Barcelona/Interactive Systems/cospeech-gesture/CoSpeechGestures/data/083933_CoSpeechGestures_2025-12-17_11h17.38.044.csv'
+44.0408 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
