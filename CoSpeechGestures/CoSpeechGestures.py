@@ -767,7 +767,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     
     # --- Initialize components for Routine "halfTime" ---
     textHalfTime = visual.TextStim(win=win, name='textHalfTime',
-        text='You are halfway through this block!\n\nThe experiment continues in 30 seconds.',
+        text='You are halfway through this block!\n\nThe experiment continues in 60 seconds.',
         font='Arial',
         pos=(0, 0), draggable=False, height=0.05, wrapWidth=None, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
@@ -1653,7 +1653,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     # set up handler to look after randomisation of conditions etc
     trainingTrials_block = data.TrialHandler2(
         name='trainingTrials_block',
-        nReps=0.0, 
+        nReps=1.0, 
         method='sequential', 
         extraInfo=expInfo, 
         originPath=-1, 
@@ -2477,7 +2477,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             
             # increase trialNumber
             trialN += 1
-            print(trialN)
+            print("Current trial number: ", trialN)
             
             if trialN == nHalfTime:
                 repHalftime = 1
@@ -3061,7 +3061,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
                 
                 # --- Run Routine "halfTime" ---
                 halfTime.forceEnded = routineForceEnded = not continueRoutine
-                while continueRoutine and routineTimer.getTime() < 30.0:
+                while continueRoutine and routineTimer.getTime() < 59.0:
                     # if trial has changed, end Routine now
                     if hasattr(thisHalfTimeLoop, 'status') and thisHalfTimeLoop.status == STOPPING:
                         continueRoutine = False
