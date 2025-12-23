@@ -3238,6 +3238,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
                 )
                 breakTwothirds.status = NOT_STARTED
                 continueRoutine = True
+                repTwoThirds= 0
                 # update component parameters for each repeat
                 # store start times for breakTwothirds
                 breakTwothirds.tStartRefresh = win.getFutureFlipTime(clock=globalClock)

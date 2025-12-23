@@ -1,0 +1,30 @@
+14.0596 	WARNING 	/Users/sara-sofiagorriz/.psychopy3/fonts/Calibri.truetype doesn't have valid font family name
+14.0661 	WARNING 	Font Manager failed to load file /System/Library/PrivateFrameworks/FontServices.framework/Resources/Reserved/PingFangUI.ttc
+14.1364 	WARNING 	/Users/sara-sofiagorriz/.psychopy3/fonts/Calibri.truetype doesn't have valid font family name
+14.1382 	WARNING 	Font Manager failed to load file /System/Library/PrivateFrameworks/FontServices.framework/Resources/Reserved/PingFangUI.ttc
+14.1559 	WARNING 	Import Error: dlopen(/Users/sara-sofiagorriz/.pyenv/versions/3.10.13/lib/python3.10/site-packages/psychtoolbox/PsychHID.cpython-310-darwin.so, 0x0002): symbol not found in flat namespace '_libusb_bulk_transfer'. Using event module for keyboard component.
+16.0542 	INFO 	Loaded monitor calibration from ['2025_12_15 15:02']
+16.0558 	WARNING 	Requested an unavailable screen number - using first available.
+16.0566 	WARNING 	User requested fullscreen with size [1920 1080], but screen is actually [1800, 1169]. Using actual size
+16.1510 	INFO 	Using renderer 'Apple M1 Pro' for graphics
+16.1510 	INFO 	OpenGL version supported by driver is 2..
+16.1726 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x1645d6140>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x1645d60e0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x1650cfc40>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(0.0), np.float64(0.0)], screen=1, size=array([3600, 2338]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+16.1726 	EXP 	window1: backgroundImage = ''
+16.1726 	EXP 	window1: backgroundFit = 'none'
+16.3975 	EXP 	window1: Attempting to measure frame rate of screen (1) ...
+16.3975 	EXP 	window1: recordFrameIntervals = False
+16.6096 	EXP 	window1: recordFrameIntervals = True
+17.4449 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+17.4450 	INFO 	keyboard.Keyboard is using ptb backend.
+17.4451 	INFO 	keyboard.Keyboard is using ptb backend.
+17.4451 	INFO 	keyboard.Keyboard is using ptb backend.
+17.4452 	INFO 	keyboard.Keyboard is using ptb backend.
+17.4452 	INFO 	keyboard.Keyboard is using ptb backend.
+17.4452 	INFO 	keyboard.Keyboard is using ptb backend.
+17.4453 	INFO 	keyboard.Keyboard is using ptb backend.
+17.4696 	INFO 	saved data to /Users/sara-sofiagorriz/Documents/UPF Barcelona/Interactive Systems/cospeech-gesture/CoSpeech_congruency/data/536278_exp_cospeech_congruency_2025-12-23_22h44.53.930.psydat
+17.4698 	INFO 	saved data to '/Users/sara-sofiagorriz/Documents/UPF Barcelona/Interactive Systems/cospeech-gesture/CoSpeech_congruency/data/536278_exp_cospeech_congruency_2025-12-23_22h44.53.930.csv'
+17.4714 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
